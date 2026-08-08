@@ -5,13 +5,18 @@ from pykrx import stock
 import FinanceDataReader as fdr
 
 def fetch_krx_stock_data():
-    today_str = datetime.now().strftime("%Y%m%d")
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 주식 데이터 수집 시작...")
+    # 주말/공휴일 대응: 가장 최근 영업일 날짜 가져오기 (예: 토/일요일이면 지난 금요일 날짜)
+    today_str = stock.get_nearest_business_day_in_a_week()
+    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 수집 대상 영업일: {today_str}")
 
     try:
         df_market = stock.get_market_ohlcv_by_ticker(today_str, market="ALL")
         df_cap = stock.get_market_cap_by_ticker(today_str, market="ALL")
         df_fundamental = stock.get_market_fundamental_by_ticker(today_str, market="ALL")
+
+        if df_market.empty:
+            print("선택한 날짜의 주식 데이터가 존재하지 않습니다.")
+            return
 
         df_combined = df_market.join(df_cap[['시가총액']]).join(df_fundamental[['PER', 'PBR']])
         
@@ -45,8 +50,10 @@ def fetch_krx_stock_data():
 
         stocks.sort(key=lambda x: x['marcap'], reverse=True)
 
+        formatted_date = f"{today_str[:4]}-{today_str[4:6]}-{today_str[6:8]}"
+
         result_data = {
-            "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S KST"),
+            "updated_at": f"{formatted_date} 기준",
             "total_count": len(stocks),
             "stocks": stocks
         }
