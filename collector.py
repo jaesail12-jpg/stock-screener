@@ -1,70 +1,101 @@
 import json
-from datetime import datetime
-import pandas as pd
-from pykrx import stock
-import FinanceDataReader as fdr
+import requests
+from bs4 import BeautifulSoup
 
-def fetch_krx_stock_data():
-    # 주말/공휴일 대응: 가장 최근 영업일 날짜 가져오기 (예: 토/일요일이면 지난 금요일 날짜)
-    today_str = stock.get_nearest_business_day_in_a_week()
-    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 수집 대상 영업일: {today_str}")
-
-    try:
-        df_market = stock.get_market_ohlcv_by_ticker(today_str, market="ALL")
-        df_cap = stock.get_market_cap_by_ticker(today_str, market="ALL")
-        df_fundamental = stock.get_market_fundamental_by_ticker(today_str, market="ALL")
-
-        if df_market.empty:
-            print("선택한 날짜의 주식 데이터가 존재하지 않습니다.")
-            return
-
-        df_combined = df_market.join(df_cap[['시가총액']]).join(df_fundamental[['PER', 'PBR']])
-        
-        krx_listing = fdr.StockListing('KRX')
-        name_market_map = krx_listing.set_index('Code')[['Name', 'Market']].to_dict(orient='index')
-
-        stocks = []
-        for ticker, row in df_combined.iterrows():
-            if ticker in name_market_map:
-                name = name_market_map[ticker]['Name']
-                market = name_market_map[ticker]['Market']
+def fetch_naver_stock_data(sosok=0):
+    """
+    네이버 증권 시가총액 순위 스크래핑
+    sosok = 0 : KOSPI
+    sosok = 1 : KOSDAQ
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+    }
+    stocks = []
+    
+    # KOSPI/KOSDAQ 각각 상위 10페이지(페이지당 50개, 총 1,000개 종목) 수집
+    for page in range(1, 11):
+        url = f"https://finance.naver.com/sise/sise_market_sum.naver?sosok={sosok}&page={page}"
+        try:
+            res = requests.get(url, headers=headers, timeout=10)
+            res.encoding = 'euc-kr'
+            soup = BeautifulSoup(res.text, 'html.parser')
+            
+            table = soup.find('table', {'class': 'type_2'})
+            if not table:
+                continue
                 
-                close_price = int(row['종가'])
-                change_rate = float(row['등락률']) if '등락률' in row and not pd.isna(row['등락률']) else 0.0
-                marcap_eok = round(int(row['시가총액']) / 100_000_000, 2)
+            rows = table.find_all('tr')
+            for row in rows:
+                cols = row.find_all('td')
+                if len(cols) <= 1:
+                    continue
                 
-                per = float(row['PER']) if not pd.isna(row['PER']) and row['PER'] != 0 else None
-                pbr = float(row['PBR']) if not pd.isna(row['PBR']) and row['PBR'] != 0 else None
-
-                if marcap_eok >= 100 and close_price > 0:
+                name_tag = cols[1].find('a')
+                if not name_tag:
+                    continue
+                
+                stock_name = name_tag.text.strip()
+                stock_code = name_tag['href'].split('code=')[-1]
+                
+                try:
+                    price = int(cols[2].text.strip().replace(',', ''))
+                    
+                    change_str = cols[4].text.strip().replace('%', '').replace('+', '')
+                    change_rate = float(change_str) if change_str and change_str != 'N/A' else 0.0
+                    
+                    market_cap_str = cols[6].text.strip().replace(',', '')
+                    # 억 원 단위를 원 단위로 변환
+                    market_cap = int(market_cap_str) * 100000000 if market_cap_str and market_cap_str != 'N/A' else 0
+                    
+                    per_str = cols[10].text.strip().replace(',', '')
+                    per = float(per_str) if per_str and per_str != 'N/A' else None
+                    
+                    pbr = None  # 기본 목록 페이지 구성에 맞춰 처리
+                    
+                    market = "KOSPI" if sosok == 0 else "KOSDAQ"
+                    
                     stocks.append({
-                        "code": str(ticker),
-                        "name": name,
+                        "code": stock_code,
+                        "name": stock_name,
                         "market": market,
-                        "price": close_price,
-                        "change_rate": change_rate,
-                        "marcap": marcap_eok,
+                        "price": price,
+                        "change_rate": round(change_rate, 2),
+                        "market_cap": market_cap,
                         "per": per,
                         "pbr": pbr
                     })
+                except (ValueError, IndexError):
+                    continue
+        except Exception as e:
+            print(f"페이지 {page} 수집 중 오류: {e}")
+            continue
+            
+    return stocks
 
-        stocks.sort(key=lambda x: x['marcap'], reverse=True)
+def main():
+    print("주식 데이터 수집 시작 (Naver Finance)...")
+    try:
+        kospi_stocks = fetch_naver_stock_data(sosok=0)
+        print(f"KOSPI {len(kospi_stocks)}개 수집 완료")
+        
+        kosdaq_stocks = fetch_naver_stock_data(sosok=1)
+        print(f"KOSDAQ {len(kosdaq_stocks)}개 수집 완료")
+        
+        all_stocks = kospi_stocks + kosdaq_stocks
+        
+        if not all_stocks:
+            print("수집된 주식 데이터가 없습니다.")
+            return
 
-        formatted_date = f"{today_str[:4]}-{today_str[4:6]}-{today_str[6:8]}"
-
-        result_data = {
-            "updated_at": f"{formatted_date} 기준",
-            "total_count": len(stocks),
-            "stocks": stocks
-        }
-
+        # stocks.json 저장
         with open('stocks.json', 'w', encoding='utf-8') as f:
-            json.dump(result_data, f, ensure_ascii=False, indent=2)
-
-        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] 수집 완료! 총 {len(stocks)}개 종목 저장됨.")
+            json.dump(all_stocks, f, ensure_ascii=False, indent=2)
+            
+        print(f"총 {len(all_stocks)}개 데이터 저장 완료 (stocks.json)")
+        
     except Exception as e:
-        print(f"데이터 수집 중 오류 발생: {e}")
-        raise e
+        print(f"데이터 수집 중 예외 발생: {e}")
 
 if __name__ == "__main__":
-    fetch_krx_stock_data()
+    main()
