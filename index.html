@@ -11,7 +11,7 @@
     <header class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b pb-4">
       <div>
         <h1 class="text-2xl md:text-3xl font-bold text-slate-900">주식 스크리너</h1>
-        <p class="text-sm text-slate-500 mt-1">KOSPI / KOSDAQ 종목 실시간 조건 검색</p>
+        <p class="text-sm text-slate-500 mt-1">KOSPI / KOSDAQ 전 종목 조건 검색</p>
       </div>
       <div id="lastUpdated" class="text-xs text-slate-400">데이터 로딩 중...</div>
     </header>
@@ -58,12 +58,11 @@
               <th class="py-3 px-4 text-right">등락률</th>
               <th class="py-3 px-4 text-right">시가총액(억)</th>
               <th class="py-3 px-4 text-right">PER</th>
-              <th class="py-3 px-4 text-right">PBR</th>
             </tr>
           </thead>
           <tbody id="stockTableBody" class="divide-y divide-slate-100">
             <tr>
-              <td colspan="8" class="text-center py-8 text-slate-400">데이터를 불러오는 중입니다...</td>
+              <td colspan="7" class="text-center py-8 text-slate-400">데이터를 불러오는 중입니다...</td>
             </tr>
           </tbody>
         </table>
@@ -85,14 +84,22 @@
 
     async function loadStockData() {
       try {
-        const response = await fetch('stocks.json');
-        if (!response.ok) throw new Error('데이터 파일이 존재하지 않거나 로드할 수 없습니다.');
+        const response = await fetch('stocks.json?v=' + new Date().getTime());
+        if (!response.ok) throw new Error('stocks.json 파일을 찾을 수 없습니다.');
         const data = await response.json();
-        stockData = data.stocks || [];
-        if (data.updated_at) lastUpdated.textContent = `최종 업데이트: ${data.updated_at}`;
+        
+        if (Array.isArray(data)) {
+          stockData = data;
+        } else if (data && Array.isArray(data.stocks)) {
+          stockData = data.stocks;
+          if (data.updated_at) lastUpdated.textContent = `최종 업데이트: ${data.updated_at}`;
+        } else {
+          stockData = [];
+        }
+
         renderTable(stockData);
       } catch (error) {
-        stockTableBody.innerHTML = `<tr><td colspan="8" class="text-center py-8 text-red-500">데이터 로드 실패: ${error.message}<br><span class="text-xs text-slate-400">GitHub Actions 수집 작업 완료 후 데이터가 표시됩니다.</span></td></tr>`;
+        stockTableBody.innerHTML = `<tr><td colspan="7" class="text-center py-8 text-red-500">데이터 로드 실패: ${error.message}</td></tr>`;
       }
     }
 
@@ -100,16 +107,14 @@
       const query = searchInput.value.trim().toLowerCase();
       const minMarcap = parseFloat(minMarcapInput.value) || 0;
       const maxPer = maxPerInput.value !== '' ? parseFloat(maxPerInput.value) : Infinity;
-      const maxPbr = maxPbrInput.value !== '' ? parseFloat(maxPbrInput.value) : Infinity;
       const minChange = minChangeInput.value !== '' ? parseFloat(minChangeInput.value) : -Infinity;
 
       const filtered = stockData.filter(item => {
         const matchQuery = item.name.toLowerCase().includes(query) || item.code.includes(query);
-        const matchMarcap = item.marcap >= minMarcap;
-        const matchPer = item.per !== null && item.per > 0 && item.per <= maxPer;
-        const matchPbr = item.pbr !== null && item.pbr > 0 && item.pbr <= maxPbr;
+        const matchMarcap = (item.marcap || item.market_cap || 0) >= minMarcap;
+        const matchPer = maxPer === Infinity ? true : (item.per !== null && item.per <= maxPer);
         const matchChange = item.change_rate >= minChange;
-        return matchQuery && matchMarcap && matchPer && matchPbr && matchChange;
+        return matchQuery && matchMarcap && matchPer && matchChange;
       });
 
       renderTable(filtered);
@@ -118,12 +123,14 @@
     function renderTable(data) {
       resultCount.textContent = `검색 결과: ${data.length.toLocaleString()}건`;
       if (data.length === 0) {
-        stockTableBody.innerHTML = `<tr><td colspan="8" class="text-center py-8 text-slate-400">조건에 일치하는 종목이 없습니다.</td></tr>`;
+        stockTableBody.innerHTML = `<tr><td colspan="7" class="text-center py-8 text-slate-400">조건에 일치하는 종목이 없습니다.</td></tr>`;
         return;
       }
       stockTableBody.innerHTML = data.map(item => {
         const changeColor = item.change_rate > 0 ? 'text-red-500' : item.change_rate < 0 ? 'text-blue-500' : 'text-slate-600';
         const changeSign = item.change_rate > 0 ? '+' : '';
+        const marcapVal = item.marcap || item.market_cap || 0;
+
         return `
           <tr class="hover:bg-slate-50 transition">
             <td class="py-3 px-4 font-semibold text-slate-900">${item.name}</td>
@@ -135,9 +142,8 @@
             </td>
             <td class="py-3 px-4 text-right font-medium">${item.price ? item.price.toLocaleString() : '-'}원</td>
             <td class="py-3 px-4 text-right font-semibold ${changeColor}">${changeSign}${item.change_rate ? item.change_rate.toFixed(2) : '0.00'}%</td>
-            <td class="py-3 px-4 text-right">${item.marcap ? Math.round(item.marcap).toLocaleString() : '-'}</td>
+            <td class="py-3 px-4 text-right">${marcapVal ? Math.round(marcapVal).toLocaleString() : '-'}</td>
             <td class="py-3 px-4 text-right">${item.per ? item.per.toFixed(2) : '-'}</td>
-            <td class="py-3 px-4 text-right">${item.pbr ? item.pbr.toFixed(2) : '-'}</td>
           </tr>
         `;
       }).join('');
