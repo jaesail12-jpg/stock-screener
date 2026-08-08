@@ -2,7 +2,7 @@ name: Update Stock Data Automatically
 
 on:
   schedule:
-    - cron: '30 7 * * 1-5'  # 평일 한국시간 16:30 (UTC 07:30)
+    - cron: '30 7 * * 1-5'  # 평일 한국시간 16:30
   workflow_dispatch:
 
 jobs:
@@ -26,6 +26,8 @@ jobs:
           pip install requests beautifulsoup4
 
       - name: Run collector script
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
         run: python collector.py
 
       - name: Commit and push changes
@@ -33,5 +35,5 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add stocks.json
-          git diff --staged --quiet || git commit -m "Auto update stock data [skip ci]"
+          git diff --staged --quiet || git commit -m "Auto update DART stock data [skip ci]"
           git push
