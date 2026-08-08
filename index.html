@@ -3,9 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>주식 조건 검색 & 재무 차트 스크리너</title>
+  <title>주식 조건 검색 스크리너</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Chart.js 라이브러리 추가 -->
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-screen p-4 md:p-8">
@@ -13,12 +12,12 @@
     <header class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b pb-4">
       <div>
         <h1 class="text-2xl md:text-3xl font-bold text-slate-900">주식 스크리너</h1>
-        <p class="text-sm text-slate-500 mt-1">종목을 클릭하면 최근 연간 매출액/영업이익 추이 차트가 표시됩니다.</p>
+        <p class="text-sm text-slate-500 mt-1">종목 클릭 시 최근 4개년 매출액/영업이익 추이 차트가 모달로 나타납니다.</p>
       </div>
       <div id="lastUpdated" class="text-xs text-slate-400">데이터 로딩 중...</div>
     </header>
 
-    <!-- 조건 필터 파트 -->
+    <!-- 검색 필터 -->
     <section class="bg-white p-5 rounded-xl shadow-sm border border-slate-200 space-y-4">
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
         <div>
@@ -49,7 +48,7 @@
       </div>
     </section>
 
-    <!-- 데이터 테이블 -->
+    <!-- 테이블 -->
     <section class="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
       <div class="overflow-x-auto">
         <table class="w-full text-left text-sm">
@@ -88,8 +87,9 @@
         </div>
         <button id="closeModalBtn" class="text-slate-400 hover:text-slate-600 text-2xl font-bold px-2">&times;</button>
       </div>
-      <div class="relative h-80 w-full">
+      <div class="relative h-80 w-full flex items-center justify-center">
         <canvas id="financialChart"></canvas>
+        <div id="noChartDataMsg" class="hidden text-slate-400 text-sm">해당 종목의 상세 재무 추이 데이터가 없습니다.</div>
       </div>
     </div>
   </div>
@@ -112,11 +112,13 @@
     const closeModalBtn = document.getElementById('closeModalBtn');
     const modalStockName = document.getElementById('modalStockName');
     const modalStockCode = document.getElementById('modalStockCode');
+    const noChartDataMsg = document.getElementById('noChartDataMsg');
+    const canvas = document.getElementById('financialChart');
 
     async function loadStockData() {
       try {
         const response = await fetch('stocks.json?v=' + new Date().getTime());
-        if (!response.ok) throw new Error('stocks.json 로드 실패');
+        if (!response.ok) throw new Error('stocks.json 데이터 파일을 읽을 수 없습니다.');
         const data = await response.json();
         
         stockData = data.stocks || [];
@@ -153,12 +155,12 @@
         stockTableBody.innerHTML = `<tr><td colspan="11" class="text-center py-8 text-slate-400">조건에 일치하는 종목이 없습니다.</td></tr>`;
         return;
       }
-      stockTableBody.innerHTML = data.map((item, index) => {
+      stockTableBody.innerHTML = data.map(item => {
         const changeColor = item.change_rate > 0 ? 'text-red-500' : item.change_rate < 0 ? 'text-blue-500' : 'text-slate-600';
         const changeSign = item.change_rate > 0 ? '+' : '';
 
         return `
-          <tr onclick="openChartModal('${item.code}')" class="hover:bg-blue-50/50 cursor-pointer transition">
+          <tr onclick="openChartModal('${item.code}')" class="hover:bg-blue-50/60 cursor-pointer transition">
             <td class="py-3 px-3 font-semibold text-slate-900">${item.name}</td>
             <td class="py-3 px-3 text-xs font-mono text-slate-400">${item.code}</td>
             <td class="py-3 px-3 text-xs">
@@ -179,17 +181,29 @@
       }).join('');
     }
 
-    // 차트 모달 열기
+    // 모달 열기 함수
     window.openChartModal = function(code) {
-      const stock = stockData.find(s => s.code === code);
-      if (!stock || !stock.history) return;
+      const stock = stockData.find(s => String(s.code) === String(code));
+      if (!stock) return;
 
       modalStockName.textContent = stock.name;
       modalStockCode.textContent = stock.code;
+      chartModal.classList.remove('hidden');
 
-      const history = stock.history;
-      const ctx = document.getElementById('financialChart').getContext('2d');
+      const history = stock.history || {};
+      const hasHistory = history.years && history.years.length > 0;
 
+      if (!hasHistory) {
+        if (chartInstance) chartInstance.destroy();
+        canvas.classList.add('hidden');
+        noChartDataMsg.classList.remove('hidden');
+        return;
+      }
+
+      canvas.classList.remove('hidden');
+      noChartDataMsg.classList.add('hidden');
+
+      const ctx = canvas.getContext('2d');
       if (chartInstance) chartInstance.destroy();
 
       chartInstance = new Chart(ctx, {
@@ -239,8 +253,6 @@
           }
         }
       });
-
-      chartModal.classList.remove('hidden');
     };
 
     closeModalBtn.addEventListener('click', () => chartModal.classList.add('hidden'));
