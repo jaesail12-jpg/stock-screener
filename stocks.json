@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-21 09:28:39 KST",
+  "updated_at": "2026-08-24 10:15:57 KST",
   "total_count": 200,
   "stocks": [
     {
       "code": "005930",
       "name": "삼성전자",
       "market": "KOSPI",
-      "price": 281500,
-      "change_rate": 3.87,
-      "marcap": 16457274.0,
-      "per": 12.63,
-      "pbr": 0.75,
+      "price": 257000,
+      "change_rate": -8.7,
+      "marcap": 15024936.0,
+      "per": 11.53,
+      "pbr": 0.68,
       "recent_revenue": 2090522.4,
       "recent_op_income": 123610.3,
       "recent_op_margin": 5.91,
@@ -41,11 +41,11 @@
       "code": "000660",
       "name": "SK하이닉스",
       "market": "KOSPI",
-      "price": 1730000,
-      "change_rate": 2.31,
-      "marcap": 12637518.0,
-      "per": 7.71,
-      "pbr": 2.95,
+      "price": 1671000,
+      "change_rate": -3.41,
+      "marcap": 12206527.0,
+      "per": 7.45,
+      "pbr": 2.85,
       "recent_revenue": 557362.9,
       "recent_op_income": 213314.5,
       "recent_op_margin": 38.27,
@@ -76,10 +76,10 @@
       "code": "005935",
       "name": "삼성전자우",
       "market": "KOSPI",
-      "price": 207000,
-      "change_rate": 8.26,
-      "marcap": 1660908.0,
-      "per": 9.29,
+      "price": 189300,
+      "change_rate": -8.55,
+      "marcap": 1518889.0,
+      "per": 8.49,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": null,
@@ -95,11 +95,11 @@
       "code": "402340",
       "name": "SK스퀘어",
       "market": "KOSPI",
-      "price": 1123000,
-      "change_rate": 0.0,
-      "marcap": 1481506.0,
-      "per": 16.9,
-      "pbr": 10.72,
+      "price": 1076000,
+      "change_rate": -4.19,
+      "marcap": 1419502.0,
+      "per": 4.33,
+      "pbr": 2.75,
       "recent_revenue": 1774.7,
       "recent_op_income": 1125.3,
       "recent_op_margin": 63.41,
@@ -126,11 +126,11 @@
       "code": "009150",
       "name": "삼성전기",
       "market": "KOSPI",
-      "price": 1316000,
-      "change_rate": -5.73,
-      "marcap": 982969.0,
-      "per": 101.36,
-      "pbr": 3.25,
+      "price": 1318000,
+      "change_rate": 0.15,
+      "marcap": 984463.0,
+      "per": 101.51,
+      "pbr": 3.26,
       "recent_revenue": 75985.9,
       "recent_op_income": 2435.6,
       "recent_op_margin": 3.21,
@@ -161,10 +161,10 @@
       "code": "005380",
       "name": "현대차",
       "market": "KOSPI",
-      "price": 415000,
-      "change_rate": -0.6,
-      "marcap": 849745.0,
-      "per": 13.52,
+      "price": 414000,
+      "change_rate": -0.24,
+      "marcap": 847697.0,
+      "per": 13.49,
       "pbr": 1.13,
       "recent_revenue": 790607.8,
       "recent_op_income": 65993.7,
@@ -196,11 +196,11 @@
       "code": "373220",
       "name": "LG에너지솔루션",
       "market": "KOSPI",
-      "price": 343500,
-      "change_rate": -4.05,
-      "marcap": 803790.0,
-      "per": -47.75,
-      "pbr": 13.89,
+      "price": 362000,
+      "change_rate": 5.39,
+      "marcap": 847080.0,
+      "per": -50.33,
+      "pbr": 14.64,
       "recent_revenue": 79266.5,
       "recent_op_income": -23051.8,
       "recent_op_margin": -29.08,
@@ -231,11 +231,11 @@
       "code": "207940",
       "name": "삼성바이오로직스",
       "market": "KOSPI",
-      "price": 1551000,
-      "change_rate": -1.46,
-      "marcap": 717973.0,
-      "per": 58.37,
-      "pbr": 22.06,
+      "price": 1573000,
+      "change_rate": 1.42,
+      "marcap": 728157.0,
+      "per": 43.45,
+      "pbr": 16.42,
       "recent_revenue": 34971.5,
       "recent_op_income": 13214.3,
       "recent_op_margin": 37.79,
@@ -263,45 +263,14 @@
       }
     },
     {
-      "code": "032830",
-      "name": "삼성생명",
-      "market": "KOSPI",
-      "price": 328500,
-      "change_rate": 10.61,
-      "marcap": 657000.0,
-      "per": 22.88,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": 15429.3,
-      "recent_op_margin": null,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          null,
-          null
-        ],
-        "op_incomes": [
-          14248.4,
-          15429.3
-        ],
-        "op_margins": [
-          null,
-          null
-        ]
-      }
-    },
-    {
       "code": "028260",
       "name": "삼성물산",
       "market": "KOSPI",
-      "price": 395500,
-      "change_rate": 5.75,
-      "marcap": 641373.0,
-      "per": 27.92,
-      "pbr": 1.15,
+      "price": 364500,
+      "change_rate": -7.84,
+      "marcap": 591101.0,
+      "per": 22.06,
+      "pbr": 0.91,
       "recent_revenue": 229132.8,
       "recent_op_income": 9473.0,
       "recent_op_margin": 4.13,
@@ -332,10 +301,10 @@
       "code": "105560",
       "name": "KB금융",
       "market": "KOSPI",
-      "price": 164300,
-      "change_rate": 2.69,
-      "marcap": 582752.0,
-      "per": 10.39,
+      "price": 163100,
+      "change_rate": -0.73,
+      "marcap": 578496.0,
+      "per": 10.31,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": 21706.5,
@@ -360,14 +329,45 @@
       }
     },
     {
+      "code": "032830",
+      "name": "삼성생명",
+      "market": "KOSPI",
+      "price": 285500,
+      "change_rate": -13.09,
+      "marcap": 571000.0,
+      "per": 19.89,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": 15429.3,
+      "recent_op_margin": null,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          null,
+          null
+        ],
+        "op_incomes": [
+          14248.4,
+          15429.3
+        ],
+        "op_margins": [
+          null,
+          null
+        ]
+      }
+    },
+    {
       "code": "012450",
       "name": "한화에어로스페이스",
       "market": "KOSPI",
-      "price": 1085000,
-      "change_rate": -7.03,
-      "marcap": 559463.0,
-      "per": 37.97,
-      "pbr": 7.18,
+      "price": 1105000,
+      "change_rate": 1.84,
+      "marcap": 569776.0,
+      "per": 27.56,
+      "pbr": 5.21,
       "recent_revenue": 79351.0,
       "recent_op_income": 14997.0,
       "recent_op_margin": 18.9,
@@ -398,10 +398,10 @@
       "code": "000270",
       "name": "기아",
       "market": "KOSPI",
-      "price": 130900,
-      "change_rate": -0.15,
-      "marcap": 511051.0,
-      "per": 7.37,
+      "price": 131500,
+      "change_rate": 0.46,
+      "marcap": 513393.0,
+      "per": 7.4,
       "pbr": 0.99,
       "recent_revenue": 632567.4,
       "recent_op_income": 84995.3,
@@ -433,10 +433,10 @@
       "code": "055550",
       "name": "신한지주",
       "market": "KOSPI",
-      "price": 104100,
-      "change_rate": 2.97,
-      "marcap": 488698.0,
-      "per": 9.93,
+      "price": 103300,
+      "change_rate": -0.77,
+      "marcap": 484942.0,
+      "per": 9.85,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": 18008.6,
@@ -464,11 +464,11 @@
       "code": "329180",
       "name": "HD현대중공업",
       "market": "KOSPI",
-      "price": 453000,
-      "change_rate": -4.73,
-      "marcap": 475474.0,
-      "per": 28.85,
-      "pbr": 1.4,
+      "price": 455500,
+      "change_rate": 0.55,
+      "marcap": 478098.0,
+      "per": 17.77,
+      "pbr": 0.86,
       "recent_revenue": 144763.9,
       "recent_op_income": 7025.4,
       "recent_op_margin": 4.85,
@@ -499,11 +499,11 @@
       "code": "034020",
       "name": "두산에너빌리티",
       "market": "KOSPI",
-      "price": 73300,
-      "change_rate": -3.43,
-      "marcap": 469531.0,
-      "per": 304.15,
-      "pbr": 18.92,
+      "price": 73000,
+      "change_rate": -0.41,
+      "marcap": 467610.0,
+      "per": 553.03,
+      "pbr": 34.4,
       "recent_revenue": 63203.0,
       "recent_op_income": 3934.3,
       "recent_op_margin": 6.22,
@@ -534,9 +534,9 @@
       "code": "012330",
       "name": "현대모비스",
       "market": "KOSPI",
-      "price": 496000,
-      "change_rate": -2.17,
-      "marcap": 450034.0,
+      "price": 498500,
+      "change_rate": 0.5,
+      "marcap": 452302.0,
       "per": 12.5,
       "pbr": 0.62,
       "recent_revenue": 366040.3,
@@ -569,11 +569,11 @@
       "code": "068270",
       "name": "셀트리온",
       "market": "KOSPI",
-      "price": 192300,
-      "change_rate": -0.93,
-      "marcap": 447323.0,
-      "per": 36.8,
-      "pbr": 12.02,
+      "price": 194000,
+      "change_rate": 0.88,
+      "marcap": 451277.0,
+      "per": 29.54,
+      "pbr": 9.64,
       "recent_revenue": 37092.1,
       "recent_op_income": 12110.1,
       "recent_op_margin": 32.65,
@@ -601,49 +601,14 @@
       }
     },
     {
-      "code": "034730",
-      "name": "SK",
-      "market": "KOSPI",
-      "price": 586000,
-      "change_rate": 3.17,
-      "marcap": 424866.0,
-      "per": 16.29,
-      "pbr": 4.39,
-      "recent_revenue": 37067.7,
-      "recent_op_income": 9983.4,
-      "recent_op_margin": 26.93,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          33697.8,
-          41370.3,
-          37067.7
-        ],
-        "op_incomes": [
-          11086.9,
-          15504.6,
-          9983.4
-        ],
-        "op_margins": [
-          32.9,
-          37.48,
-          26.93
-        ]
-      }
-    },
-    {
       "code": "006400",
       "name": "삼성SDI",
       "market": "KOSPI",
-      "price": 478000,
-      "change_rate": -4.3,
-      "marcap": 385199.0,
-      "per": -84.07,
-      "pbr": 0.3,
+      "price": 515000,
+      "change_rate": 7.74,
+      "marcap": 415015.0,
+      "per": 1124.45,
+      "pbr": -4.05,
       "recent_revenue": 160978.4,
       "recent_op_income": -576.8,
       "recent_op_margin": -0.36,
@@ -671,12 +636,47 @@
       }
     },
     {
+      "code": "034730",
+      "name": "SK",
+      "market": "KOSPI",
+      "price": 549000,
+      "change_rate": -6.31,
+      "marcap": 398040.0,
+      "per": 25.11,
+      "pbr": 6.76,
+      "recent_revenue": 37067.7,
+      "recent_op_income": 9983.4,
+      "recent_op_margin": 26.93,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          33697.8,
+          41370.3,
+          37067.7
+        ],
+        "op_incomes": [
+          11086.9,
+          15504.6,
+          9983.4
+        ],
+        "op_margins": [
+          32.9,
+          37.48,
+          26.93
+        ]
+      }
+    },
+    {
       "code": "086790",
       "name": "하나금융지주",
       "market": "KOSPI",
-      "price": 128800,
-      "change_rate": 4.38,
-      "marcap": 353386.0,
+      "price": 128700,
+      "change_rate": -0.08,
+      "marcap": 353111.0,
       "per": 8.87,
       "pbr": null,
       "recent_revenue": null,
@@ -705,11 +705,11 @@
       "code": "035420",
       "name": "NAVER",
       "market": "KOSPI",
-      "price": 222000,
-      "change_rate": 1.14,
-      "marcap": 348490.0,
-      "per": 17.23,
-      "pbr": 5.31,
+      "price": 223500,
+      "change_rate": 0.68,
+      "marcap": 339891.0,
+      "per": 17.35,
+      "pbr": 5.35,
       "recent_revenue": 61808.9,
       "recent_op_income": 19052.6,
       "recent_op_margin": 30.83,
@@ -740,11 +740,11 @@
       "code": "066570",
       "name": "LG전자",
       "market": "KOSPI",
-      "price": 194500,
-      "change_rate": -3.95,
-      "marcap": 316811.0,
-      "per": 36.55,
-      "pbr": 0.67,
+      "price": 199800,
+      "change_rate": 2.72,
+      "marcap": 325444.0,
+      "per": 34.59,
+      "pbr": 0.63,
       "recent_revenue": 307625.5,
       "recent_op_income": 5589.6,
       "recent_op_margin": 1.82,
@@ -772,45 +772,14 @@
       }
     },
     {
-      "code": "000810",
-      "name": "삼성화재",
-      "market": "KOSPI",
-      "price": 661000,
-      "change_rate": 6.27,
-      "marcap": 295120.0,
-      "per": 15.91,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": 26995.4,
-      "recent_op_margin": null,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          null,
-          null
-        ],
-        "op_incomes": [
-          23762.2,
-          26995.4
-        ],
-        "op_margins": [
-          null,
-          null
-        ]
-      }
-    },
-    {
       "code": "010120",
       "name": "LS ELECTRIC",
       "market": "KOSPI",
-      "price": 187000,
-      "change_rate": -6.12,
-      "marcap": 280500.0,
-      "per": 83.19,
-      "pbr": 8.37,
+      "price": 192300,
+      "change_rate": 2.83,
+      "marcap": 288450.0,
+      "per": 74.19,
+      "pbr": 7.46,
       "recent_revenue": 31084.6,
       "recent_op_income": 3126.6,
       "recent_op_margin": 10.06,
@@ -838,37 +807,33 @@
       }
     },
     {
-      "code": "267260",
-      "name": "HD현대일렉트릭",
+      "code": "000810",
+      "name": "삼성화재",
       "market": "KOSPI",
-      "price": 718000,
-      "change_rate": -3.75,
-      "marcap": 258818.0,
-      "per": 35.33,
-      "pbr": 7.75,
-      "recent_revenue": 29935.8,
-      "recent_op_income": 6568.4,
-      "recent_op_margin": 21.94,
+      "price": 636000,
+      "change_rate": -3.78,
+      "marcap": 283958.0,
+      "per": 15.31,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": 26995.4,
+      "recent_op_margin": null,
       "history": {
         "years": [
-          "2022년",
           "2023년",
           "2024년"
         ],
         "revenues": [
-          18297.8,
-          27028.0,
-          29935.8
+          null,
+          null
         ],
         "op_incomes": [
-          1373.0,
-          3086.7,
-          6568.4
+          23762.2,
+          26995.4
         ],
         "op_margins": [
-          7.5,
-          11.42,
-          21.94
+          null,
+          null
         ]
       }
     },
@@ -876,11 +841,11 @@
       "code": "010130",
       "name": "고려아연",
       "market": "KOSPI",
-      "price": 1237000,
-      "change_rate": -0.08,
-      "marcap": 258199.0,
-      "per": 32.12,
-      "pbr": 3.23,
+      "price": 1344000,
+      "change_rate": 8.65,
+      "marcap": 280533.0,
+      "per": 27.63,
+      "pbr": 2.78,
       "recent_revenue": 80890.2,
       "recent_op_income": 8138.9,
       "recent_op_margin": 10.06,
@@ -908,13 +873,118 @@
       }
     },
     {
+      "code": "298040",
+      "name": "효성중공업",
+      "market": "KOSPI",
+      "price": 2792000,
+      "change_rate": 2.61,
+      "marcap": 260341.0,
+      "per": 44.5,
+      "pbr": 2.92,
+      "recent_revenue": 33603.2,
+      "recent_op_income": 2204.0,
+      "recent_op_margin": 6.56,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          25897.7,
+          30963.8,
+          33603.2
+        ],
+        "op_incomes": [
+          1253.8,
+          1622.9,
+          2204.0
+        ],
+        "op_margins": [
+          4.84,
+          5.24,
+          6.56
+        ]
+      }
+    },
+    {
+      "code": "267260",
+      "name": "HD현대일렉트릭",
+      "market": "KOSPI",
+      "price": 720000,
+      "change_rate": 0.28,
+      "marcap": 259539.0,
+      "per": 30.51,
+      "pbr": 6.69,
+      "recent_revenue": 29935.8,
+      "recent_op_income": 6568.4,
+      "recent_op_margin": 21.94,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          18297.8,
+          27028.0,
+          29935.8
+        ],
+        "op_incomes": [
+          1373.0,
+          3086.7,
+          6568.4
+        ],
+        "op_margins": [
+          7.5,
+          11.42,
+          21.94
+        ]
+      }
+    },
+    {
+      "code": "005490",
+      "name": "POSCO홀딩스",
+      "market": "KOSPI",
+      "price": 327500,
+      "change_rate": 5.65,
+      "marcap": 259516.0,
+      "per": 19.57,
+      "pbr": 15.64,
+      "recent_revenue": 19971.3,
+      "recent_op_income": 15964.2,
+      "recent_op_margin": 79.94,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          null,
+          14540.8,
+          19971.3
+        ],
+        "op_incomes": [
+          16748.9,
+          11066.3,
+          15964.2
+        ],
+        "op_margins": [
+          null,
+          76.11,
+          79.94
+        ]
+      }
+    },
+    {
       "code": "042660",
       "name": "한화오션",
       "market": "KOSPI",
-      "price": 84200,
-      "change_rate": -4.86,
-      "marcap": 258000.0,
-      "per": 12.44,
+      "price": 83400,
+      "change_rate": -0.95,
+      "marcap": 255549.0,
+      "per": 12.32,
       "pbr": 0.24,
       "recent_revenue": 107647.6,
       "recent_op_income": 2107.7,
@@ -943,67 +1013,13 @@
       }
     },
     {
-      "code": "069500",
-      "name": "KODEX 200",
-      "market": "KOSPI",
-      "price": 109980,
-      "change_rate": 1.65,
-      "marcap": 257848.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
-      "code": "298040",
-      "name": "효성중공업",
-      "market": "KOSPI",
-      "price": 2721000,
-      "change_rate": -4.76,
-      "marcap": 253721.0,
-      "per": 43.37,
-      "pbr": 2.85,
-      "recent_revenue": 33603.2,
-      "recent_op_income": 2204.0,
-      "recent_op_margin": 6.56,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          25897.7,
-          30963.8,
-          33603.2
-        ],
-        "op_incomes": [
-          1253.8,
-          1622.9,
-          2204.0
-        ],
-        "op_margins": [
-          4.84,
-          5.24,
-          6.56
-        ]
-      }
-    },
-    {
       "code": "009540",
       "name": "HD한국조선해양",
       "market": "KOSPI",
-      "price": 348500,
-      "change_rate": -3.33,
-      "marcap": 246644.0,
-      "per": 7.15,
+      "price": 353500,
+      "change_rate": 1.43,
+      "marcap": 250183.0,
+      "per": 7.26,
       "pbr": 0.24,
       "recent_revenue": 5168.0,
       "recent_op_income": 172.6,
@@ -1032,48 +1048,32 @@
       }
     },
     {
-      "code": "005490",
-      "name": "POSCO홀딩스",
+      "code": "069500",
+      "name": "KODEX 200",
       "market": "KOSPI",
-      "price": 310000,
-      "change_rate": -3.58,
-      "marcap": 245649.0,
-      "per": 18.52,
-      "pbr": 14.8,
-      "recent_revenue": 19971.3,
-      "recent_op_income": 15964.2,
-      "recent_op_margin": 79.94,
+      "price": 105995,
+      "change_rate": -3.62,
+      "marcap": 249459.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
       "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          null,
-          14540.8,
-          19971.3
-        ],
-        "op_incomes": [
-          16748.9,
-          11066.3,
-          15964.2
-        ],
-        "op_margins": [
-          null,
-          76.11,
-          79.94
-        ]
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
       }
     },
     {
       "code": "316140",
       "name": "우리금융지주",
       "market": "KOSPI",
-      "price": 31750,
+      "price": 31950,
       "change_rate": 0.63,
-      "marcap": 231168.0,
-      "per": 7.53,
+      "marcap": 232625.0,
+      "per": 7.58,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": 11233.0,
@@ -1098,13 +1098,48 @@
       }
     },
     {
+      "code": "096770",
+      "name": "SK이노베이션",
+      "market": "KOSPI",
+      "price": 130100,
+      "change_rate": 4.25,
+      "marcap": 219938.0,
+      "per": -9.87,
+      "pbr": -2.6,
+      "recent_revenue": 18748.9,
+      "recent_op_income": 4932.3,
+      "recent_op_margin": 26.31,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          19835.3,
+          24894.3,
+          18748.9
+        ],
+        "op_incomes": [
+          6113.7,
+          12354.7,
+          4932.3
+        ],
+        "op_margins": [
+          30.82,
+          49.63,
+          26.31
+        ]
+      }
+    },
+    {
       "code": "017670",
       "name": "SK텔레콤",
       "market": "KOSPI",
-      "price": 102200,
-      "change_rate": 5.8,
-      "marcap": 219515.0,
-      "per": 29.37,
+      "price": 102300,
+      "change_rate": 0.1,
+      "marcap": 219730.0,
+      "per": 29.4,
       "pbr": 3.5,
       "recent_revenue": 127740.6,
       "recent_op_income": 15231.8,
@@ -1133,17 +1168,17 @@
       }
     },
     {
-      "code": "096770",
-      "name": "SK이노베이션",
+      "code": "011200",
+      "name": "HMM",
       "market": "KOSPI",
-      "price": 124800,
-      "change_rate": -0.87,
-      "marcap": 210978.0,
-      "per": -9.47,
-      "pbr": -2.49,
-      "recent_revenue": 18748.9,
-      "recent_op_income": 4932.3,
-      "recent_op_margin": 26.31,
+      "price": 22850,
+      "change_rate": 5.79,
+      "marcap": 215530.0,
+      "per": 15.36,
+      "pbr": 4.66,
+      "recent_revenue": 115134.3,
+      "recent_op_income": 34897.3,
+      "recent_op_margin": 30.31,
       "history": {
         "years": [
           "2022년",
@@ -1151,30 +1186,49 @@
           "2024년"
         ],
         "revenues": [
-          19835.3,
-          24894.3,
-          18748.9
+          184298.9,
+          82304.5,
+          115134.3
         ],
         "op_incomes": [
-          6113.7,
-          12354.7,
-          4932.3
+          99198.9,
+          5647.5,
+          34897.3
         ],
         "op_margins": [
-          30.82,
-          49.63,
-          26.31
+          53.83,
+          6.86,
+          30.31
         ]
+      }
+    },
+    {
+      "code": "360750",
+      "name": "TIGER 미국S&P500",
+      "market": "KOSPI",
+      "price": 26235,
+      "change_rate": -0.23,
+      "marcap": 202416.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
       }
     },
     {
       "code": "015760",
       "name": "한국전력",
       "market": "KOSPI",
-      "price": 31750,
-      "change_rate": -0.16,
-      "marcap": 203824.0,
-      "per": 2.34,
+      "price": 31500,
+      "change_rate": -0.79,
+      "marcap": 202219.0,
+      "per": 2.37,
       "pbr": 0.08,
       "recent_revenue": 916465.8,
       "recent_op_income": 31666.6,
@@ -1203,49 +1257,14 @@
       }
     },
     {
-      "code": "011200",
-      "name": "HMM",
-      "market": "KOSPI",
-      "price": 21600,
-      "change_rate": 1.89,
-      "marcap": 203739.0,
-      "per": 14.52,
-      "pbr": 4.4,
-      "recent_revenue": 115134.3,
-      "recent_op_income": 34897.3,
-      "recent_op_margin": 30.31,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          184298.9,
-          82304.5,
-          115134.3
-        ],
-        "op_incomes": [
-          99198.9,
-          5647.5,
-          34897.3
-        ],
-        "op_margins": [
-          53.83,
-          6.86,
-          30.31
-        ]
-      }
-    },
-    {
       "code": "042700",
       "name": "한미반도체",
       "market": "KOSPI",
-      "price": 213500,
-      "change_rate": -5.32,
-      "marcap": 203492.0,
-      "per": 95.61,
-      "pbr": 43.99,
+      "price": 209000,
+      "change_rate": -2.11,
+      "marcap": 199202.0,
+      "per": 89.7,
+      "pbr": 41.27,
       "recent_revenue": 5555.5,
       "recent_op_income": 2556.1,
       "recent_op_margin": 46.01,
@@ -1273,22 +1292,34 @@
       }
     },
     {
-      "code": "360750",
-      "name": "TIGER 미국S&P500",
+      "code": "006800",
+      "name": "미래에셋증권",
       "market": "KOSPI",
-      "price": 26295,
-      "change_rate": -1.41,
-      "marcap": 202419.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
+      "price": 34750,
+      "change_rate": 0.72,
+      "marcap": 194449.0,
+      "per": 10.9,
+      "pbr": 0.61,
+      "recent_revenue": 165909.4,
+      "recent_op_income": 9241.9,
+      "recent_op_margin": 5.57,
       "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          166720.4,
+          165909.4
+        ],
+        "op_incomes": [
+          5070.0,
+          9241.9
+        ],
+        "op_margins": [
+          3.04,
+          5.57
+        ]
       }
     },
     {
@@ -1296,7 +1327,7 @@
       "name": "메리츠금융지주",
       "market": "KOSPI",
       "price": 115400,
-      "change_rate": 0.17,
+      "change_rate": 0.0,
       "marcap": 193119.0,
       "per": 8.65,
       "pbr": 7.77,
@@ -1323,80 +1354,14 @@
       }
     },
     {
-      "code": "006800",
-      "name": "미래에셋증권",
-      "market": "KOSPI",
-      "price": 34500,
-      "change_rate": -4.43,
-      "marcap": 193051.0,
-      "per": 10.83,
-      "pbr": 0.6,
-      "recent_revenue": 165909.4,
-      "recent_op_income": 9241.9,
-      "recent_op_margin": 5.57,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          166720.4,
-          165909.4
-        ],
-        "op_incomes": [
-          5070.0,
-          9241.9
-        ],
-        "op_margins": [
-          3.04,
-          5.57
-        ]
-      }
-    },
-    {
-      "code": "033780",
-      "name": "KT&G",
-      "market": "KOSPI",
-      "price": 172300,
-      "change_rate": 0.23,
-      "marcap": 178865.0,
-      "per": 16.97,
-      "pbr": 4.5,
-      "recent_revenue": 37045.5,
-      "recent_op_income": 9816.7,
-      "recent_op_margin": 26.5,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          36943.6,
-          35867.0,
-          37045.5
-        ],
-        "op_incomes": [
-          11202.9,
-          9317.4,
-          9816.7
-        ],
-        "op_margins": [
-          30.32,
-          25.98,
-          26.5
-        ]
-      }
-    },
-    {
       "code": "051910",
       "name": "LG화학",
       "market": "KOSPI",
-      "price": 252500,
-      "change_rate": -4.36,
-      "marcap": 178246.0,
-      "per": -9.59,
-      "pbr": -0.07,
+      "price": 273000,
+      "change_rate": 8.12,
+      "marcap": 192717.0,
+      "per": -13.15,
+      "pbr": -0.1,
       "recent_revenue": 206018.6,
       "recent_op_income": 1544.0,
       "recent_op_margin": 0.75,
@@ -1424,13 +1389,48 @@
       }
     },
     {
+      "code": "033780",
+      "name": "KT&G",
+      "market": "KOSPI",
+      "price": 173200,
+      "change_rate": 0.52,
+      "marcap": 179800.0,
+      "per": 19.3,
+      "pbr": 5.11,
+      "recent_revenue": 37045.5,
+      "recent_op_income": 9816.7,
+      "recent_op_margin": 26.5,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          36943.6,
+          35867.0,
+          37045.5
+        ],
+        "op_incomes": [
+          11202.9,
+          9317.4,
+          9816.7
+        ],
+        "op_margins": [
+          30.32,
+          25.98,
+          26.5
+        ]
+      }
+    },
+    {
       "code": "010140",
       "name": "삼성중공업",
       "market": "KOSPI",
-      "price": 20200,
-      "change_rate": -2.88,
-      "marcap": 177760.0,
-      "per": 32.01,
+      "price": 20100,
+      "change_rate": -0.5,
+      "marcap": 176880.0,
+      "per": 31.85,
       "pbr": 1.47,
       "recent_revenue": 98674.3,
       "recent_op_income": 4539.2,
@@ -1463,7 +1463,7 @@
       "name": "삼성에스디에스",
       "market": "KOSPI",
       "price": 228000,
-      "change_rate": -2.15,
+      "change_rate": 0.0,
       "marcap": 176421.0,
       "per": 27.19,
       "pbr": 2.53,
@@ -1497,11 +1497,11 @@
       "code": "000150",
       "name": "두산",
       "market": "KOSPI",
-      "price": 1078000,
-      "change_rate": -8.49,
-      "marcap": 174570.0,
-      "per": 251.52,
-      "pbr": 19.24,
+      "price": 1085000,
+      "change_rate": 0.65,
+      "marcap": 175703.0,
+      "per": 253.15,
+      "pbr": 19.37,
       "recent_revenue": 10665.0,
       "recent_op_income": 816.1,
       "recent_op_margin": 7.65,
@@ -1529,49 +1529,14 @@
       }
     },
     {
-      "code": "267250",
-      "name": "HD현대",
-      "market": "KOSPI",
-      "price": 213000,
-      "change_rate": -3.84,
-      "marcap": 168255.0,
-      "per": 11.04,
-      "pbr": 8.79,
-      "recent_revenue": 4376.4,
-      "recent_op_income": 3483.5,
-      "recent_op_margin": 79.6,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          3472.3,
-          5831.0,
-          4376.4
-        ],
-        "op_incomes": [
-          3166.5,
-          4876.4,
-          3483.5
-        ],
-        "op_margins": [
-          91.19,
-          83.63,
-          79.6
-        ]
-      }
-    },
-    {
       "code": "003550",
       "name": "LG",
       "market": "KOSPI",
-      "price": 107700,
-      "change_rate": -2.45,
-      "marcap": 162834.0,
-      "per": 34.37,
-      "pbr": 24.16,
+      "price": 113500,
+      "change_rate": 5.39,
+      "marcap": 171603.0,
+      "per": 23.58,
+      "pbr": 16.57,
       "recent_revenue": 9315.7,
       "recent_op_income": 6547.4,
       "recent_op_margin": 70.28,
@@ -1599,13 +1564,48 @@
       }
     },
     {
+      "code": "267250",
+      "name": "HD현대",
+      "market": "KOSPI",
+      "price": 212000,
+      "change_rate": -0.47,
+      "marcap": 167465.0,
+      "per": 17.4,
+      "pbr": 13.85,
+      "recent_revenue": 4376.4,
+      "recent_op_income": 3483.5,
+      "recent_op_margin": 79.6,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          3472.3,
+          5831.0,
+          4376.4
+        ],
+        "op_incomes": [
+          3166.5,
+          4876.4,
+          3483.5
+        ],
+        "op_margins": [
+          91.19,
+          83.63,
+          79.6
+        ]
+      }
+    },
+    {
       "code": "024110",
       "name": "기업은행",
       "market": "KOSPI",
-      "price": 20000,
-      "change_rate": 0.25,
-      "marcap": 159485.0,
-      "per": 6.02,
+      "price": 20200,
+      "change_rate": 1.0,
+      "marcap": 161080.0,
+      "per": 6.08,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": 32890.2,
@@ -1633,9 +1633,9 @@
       "code": "010950",
       "name": "S-Oil",
       "market": "KOSPI",
-      "price": 141100,
-      "change_rate": -1.05,
-      "marcap": 158854.0,
+      "price": 141200,
+      "change_rate": 0.07,
+      "marcap": 158967.0,
       "per": 10.8,
       "pbr": 0.13,
       "recent_revenue": 361817.9,
@@ -1669,7 +1669,7 @@
       "name": "카카오",
       "market": "KOSPI",
       "price": 35800,
-      "change_rate": -7.49,
+      "change_rate": 0.0,
       "marcap": 158587.0,
       "per": 32.22,
       "pbr": 6.11,
@@ -1703,11 +1703,11 @@
       "code": "079550",
       "name": "LIG디펜스앤에어로스페이스",
       "market": "KOSPI",
-      "price": 695000,
-      "change_rate": -11.69,
-      "marcap": 152900.0,
-      "per": 49.18,
-      "pbr": 3.64,
+      "price": 717000,
+      "change_rate": 3.17,
+      "marcap": 157740.0,
+      "per": 50.73,
+      "pbr": 3.75,
       "recent_revenue": 32585.8,
       "recent_op_income": 2412.9,
       "recent_op_margin": 7.4,
@@ -1735,49 +1735,14 @@
       }
     },
     {
-      "code": "086280",
-      "name": "현대글로비스",
-      "market": "KOSPI",
-      "price": 196700,
-      "change_rate": -1.55,
-      "marcap": 147525.0,
-      "per": 8.51,
-      "pbr": 0.49,
-      "recent_revenue": 216347.3,
-      "recent_op_income": 12477.1,
-      "recent_op_margin": 5.77,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          215289.8,
-          194999.5,
-          216347.3
-        ],
-        "op_incomes": [
-          15957.0,
-          10565.2,
-          12477.1
-        ],
-        "op_margins": [
-          7.41,
-          5.42,
-          5.77
-        ]
-      }
-    },
-    {
       "code": "278470",
       "name": "에이피알",
       "market": "KOSPI",
-      "price": 385000,
-      "change_rate": -0.26,
-      "marcap": 144137.0,
-      "per": 40.53,
-      "pbr": 6.64,
+      "price": 409500,
+      "change_rate": 6.36,
+      "marcap": 153309.0,
+      "per": 53.15,
+      "pbr": 8.71,
       "recent_revenue": 7230.0,
       "recent_op_income": 1184.0,
       "recent_op_margin": 16.38,
@@ -1805,49 +1770,14 @@
       }
     },
     {
-      "code": "064350",
-      "name": "현대로템",
-      "market": "KOSPI",
-      "price": 130100,
-      "change_rate": -5.17,
-      "marcap": 141994.0,
-      "per": 18.44,
-      "pbr": 2.0,
-      "recent_revenue": 43233.0,
-      "recent_op_income": 4683.8,
-      "recent_op_margin": 10.83,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          31060.1,
-          34989.4,
-          43233.0
-        ],
-        "op_incomes": [
-          1779.8,
-          2052.8,
-          4683.8
-        ],
-        "op_margins": [
-          5.73,
-          5.87,
-          10.83
-        ]
-      }
-    },
-    {
       "code": "003670",
       "name": "포스코퓨처엠",
       "market": "KOSPI",
-      "price": 154900,
-      "change_rate": -5.14,
-      "marcap": 137778.0,
-      "per": 306.13,
-      "pbr": 2.45,
+      "price": 170900,
+      "change_rate": 10.33,
+      "marcap": 152009.0,
+      "per": 337.75,
+      "pbr": 2.7,
       "recent_revenue": 36089.9,
       "recent_op_income": 289.2,
       "recent_op_margin": 0.8,
@@ -1875,14 +1805,119 @@
       }
     },
     {
+      "code": "086280",
+      "name": "현대글로비스",
+      "market": "KOSPI",
+      "price": 198800,
+      "change_rate": 1.07,
+      "marcap": 149100.0,
+      "per": 9.67,
+      "pbr": 0.56,
+      "recent_revenue": 216347.3,
+      "recent_op_income": 12477.1,
+      "recent_op_margin": 5.77,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          215289.8,
+          194999.5,
+          216347.3
+        ],
+        "op_incomes": [
+          15957.0,
+          10565.2,
+          12477.1
+        ],
+        "op_margins": [
+          7.41,
+          5.42,
+          5.77
+        ]
+      }
+    },
+    {
+      "code": "064350",
+      "name": "현대로템",
+      "market": "KOSPI",
+      "price": 134200,
+      "change_rate": 3.15,
+      "marcap": 146469.0,
+      "per": 18.14,
+      "pbr": 1.96,
+      "recent_revenue": 43233.0,
+      "recent_op_income": 4683.8,
+      "recent_op_margin": 10.83,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          31060.1,
+          34989.4,
+          43233.0
+        ],
+        "op_incomes": [
+          1779.8,
+          2052.8,
+          4683.8
+        ],
+        "op_margins": [
+          5.73,
+          5.87,
+          10.83
+        ]
+      }
+    },
+    {
+      "code": "011070",
+      "name": "LG이노텍",
+      "market": "KOSPI",
+      "price": 570000,
+      "change_rate": 3.64,
+      "marcap": 134902.0,
+      "per": 20.34,
+      "pbr": 0.4,
+      "recent_revenue": 208417.8,
+      "recent_op_income": 4136.4,
+      "recent_op_margin": 1.98,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          190929.0,
+          202092.7,
+          208417.8
+        ],
+        "op_incomes": [
+          10162.3,
+          5370.5,
+          4136.4
+        ],
+        "op_margins": [
+          5.32,
+          2.66,
+          1.98
+        ]
+      }
+    },
+    {
       "code": "272210",
       "name": "한화시스템",
       "market": "KOSPI",
-      "price": 70300,
-      "change_rate": -6.64,
-      "marcap": 132810.0,
-      "per": 71.44,
-      "pbr": 5.76,
+      "price": 70100,
+      "change_rate": -0.28,
+      "marcap": 132432.0,
+      "per": 71.24,
+      "pbr": 5.74,
       "recent_revenue": 27936.3,
       "recent_op_income": 2251.4,
       "recent_op_margin": 8.06,
@@ -1913,11 +1948,11 @@
       "code": "030200",
       "name": "KT",
       "market": "KOSPI",
-      "price": 52400,
-      "change_rate": 0.58,
-      "marcap": 132059.0,
-      "per": 8.56,
-      "pbr": 0.16,
+      "price": 52500,
+      "change_rate": 0.19,
+      "marcap": 132311.0,
+      "per": 7.64,
+      "pbr": 0.14,
       "recent_revenue": 185796.8,
       "recent_op_income": 3464.9,
       "recent_op_margin": 1.86,
@@ -1945,49 +1980,14 @@
       }
     },
     {
-      "code": "011070",
-      "name": "LG이노텍",
-      "market": "KOSPI",
-      "price": 550000,
-      "change_rate": -6.3,
-      "marcap": 130169.0,
-      "per": 19.63,
-      "pbr": 0.39,
-      "recent_revenue": 208417.8,
-      "recent_op_income": 4136.4,
-      "recent_op_margin": 1.98,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          190929.0,
-          202092.7,
-          208417.8
-        ],
-        "op_incomes": [
-          10162.3,
-          5370.5,
-          4136.4
-        ],
-        "op_margins": [
-          5.32,
-          2.66,
-          1.98
-        ]
-      }
-    },
-    {
       "code": "047810",
       "name": "한국항공우주",
       "market": "KOSPI",
-      "price": 130000,
-      "change_rate": -3.49,
-      "marcap": 126718.0,
-      "per": 68.17,
-      "pbr": 4.6,
+      "price": 130700,
+      "change_rate": 0.54,
+      "marcap": 127400.0,
+      "per": 71.85,
+      "pbr": 4.85,
       "recent_revenue": 35983.7,
       "recent_op_income": 2428.9,
       "recent_op_margin": 6.75,
@@ -2018,11 +2018,11 @@
       "code": "307950",
       "name": "현대오토에버",
       "market": "KOSPI",
-      "price": 448000,
-      "change_rate": -2.5,
-      "marcap": 122859.0,
-      "per": 67.33,
-      "pbr": 4.5,
+      "price": 457500,
+      "change_rate": 2.12,
+      "marcap": 125465.0,
+      "per": 65.76,
+      "pbr": 4.4,
       "recent_revenue": 29434.4,
       "recent_op_income": 1968.5,
       "recent_op_margin": 6.69,
@@ -2050,14 +2050,45 @@
       }
     },
     {
+      "code": "005830",
+      "name": "DB손해보험",
+      "market": "KOSPI",
+      "price": 180500,
+      "change_rate": 1.52,
+      "marcap": 118228.0,
+      "per": 7.96,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": 23626.6,
+      "recent_op_margin": null,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          null,
+          null
+        ],
+        "op_incomes": [
+          20167.6,
+          23626.6
+        ],
+        "op_margins": [
+          null,
+          null
+        ]
+      }
+    },
+    {
       "code": "000720",
       "name": "현대건설",
       "market": "KOSPI",
       "price": 105600,
-      "change_rate": -7.21,
+      "change_rate": 0.0,
       "marcap": 117592.0,
-      "per": 27.85,
-      "pbr": -0.36,
+      "per": 26.45,
+      "pbr": -0.34,
       "recent_revenue": 167301.0,
       "recent_op_income": -2155.2,
       "recent_op_margin": -1.29,
@@ -2085,43 +2116,12 @@
       }
     },
     {
-      "code": "005830",
-      "name": "DB손해보험",
-      "market": "KOSPI",
-      "price": 177800,
-      "change_rate": 0.23,
-      "marcap": 116460.0,
-      "per": 7.85,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": 23626.6,
-      "recent_op_margin": null,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          null,
-          null
-        ],
-        "op_incomes": [
-          20167.6,
-          23626.6
-        ],
-        "op_margins": [
-          null,
-          null
-        ]
-      }
-    },
-    {
       "code": "133690",
       "name": "TIGER 미국나스닥100",
       "market": "KOSPI",
-      "price": 179715,
-      "change_rate": -1.36,
-      "marcap": 112897.0,
+      "price": 177885,
+      "change_rate": -1.02,
+      "marcap": 111925.0,
       "per": null,
       "pbr": null,
       "recent_revenue": null,
@@ -2138,11 +2138,11 @@
       "code": "078930",
       "name": "GS",
       "market": "KOSPI",
-      "price": 116200,
-      "change_rate": 2.29,
-      "marcap": 107945.0,
-      "per": 13.78,
-      "pbr": 11.98,
+      "price": 114600,
+      "change_rate": -1.38,
+      "marcap": 106458.0,
+      "per": 4.64,
+      "pbr": 4.03,
       "recent_revenue": 6794.4,
       "recent_op_income": 5904.7,
       "recent_op_margin": 86.91,
@@ -2170,33 +2170,14 @@
       }
     },
     {
-      "code": "102110",
-      "name": "TIGER 200",
-      "market": "KOSPI",
-      "price": 110225,
-      "change_rate": 1.65,
-      "marcap": 105540.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
       "code": "003230",
       "name": "삼양식품",
       "market": "KOSPI",
-      "price": 1366000,
-      "change_rate": -2.22,
-      "marcap": 102901.0,
-      "per": 21.1,
-      "pbr": 4.79,
+      "price": 1404000,
+      "change_rate": 2.78,
+      "marcap": 105764.0,
+      "per": 21.69,
+      "pbr": 4.92,
       "recent_revenue": 14262.3,
       "recent_op_income": 3237.6,
       "recent_op_margin": 22.7,
@@ -2224,45 +2205,14 @@
       }
     },
     {
-      "code": "071050",
-      "name": "한국금융지주",
-      "market": "KOSPI",
-      "price": 184500,
-      "change_rate": -1.23,
-      "marcap": 102814.0,
-      "per": 4.59,
-      "pbr": 3.65,
-      "recent_revenue": 7806.1,
-      "recent_op_income": 6207.1,
-      "recent_op_margin": 79.52,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          12847.8,
-          7806.1
-        ],
-        "op_incomes": [
-          11488.9,
-          6207.1
-        ],
-        "op_margins": [
-          89.42,
-          79.52
-        ]
-      }
-    },
-    {
       "code": "259960",
       "name": "크래프톤",
       "market": "KOSPI",
-      "price": 222000,
-      "change_rate": -0.22,
-      "marcap": 102426.0,
-      "per": 12.01,
-      "pbr": 5.5,
+      "price": 224000,
+      "change_rate": 0.9,
+      "marcap": 103349.0,
+      "per": 12.66,
+      "pbr": 5.8,
       "recent_revenue": 26369.8,
       "recent_op_income": 12085.7,
       "recent_op_margin": 45.83,
@@ -2293,11 +2243,11 @@
       "code": "323410",
       "name": "카카오뱅크",
       "market": "KOSPI",
-      "price": 21300,
-      "change_rate": 0.47,
-      "marcap": 101627.0,
-      "per": 19.17,
-      "pbr": 3.95,
+      "price": 21600,
+      "change_rate": 1.41,
+      "marcap": 103058.0,
+      "per": 19.44,
+      "pbr": 4.0,
       "recent_revenue": 29456.2,
       "recent_op_income": 6068.8,
       "recent_op_margin": 20.6,
@@ -2321,12 +2271,43 @@
       }
     },
     {
-      "code": "379800",
-      "name": "KODEX 미국S&P500",
+      "code": "071050",
+      "name": "한국금융지주",
       "market": "KOSPI",
-      "price": 23910,
-      "change_rate": -1.4,
-      "marcap": 99693.0,
+      "price": 183300,
+      "change_rate": -0.65,
+      "marcap": 102146.0,
+      "per": 4.56,
+      "pbr": 3.63,
+      "recent_revenue": 7806.1,
+      "recent_op_income": 6207.1,
+      "recent_op_margin": 79.52,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          12847.8,
+          7806.1
+        ],
+        "op_incomes": [
+          11488.9,
+          6207.1
+        ],
+        "op_margins": [
+          89.42,
+          79.52
+        ]
+      }
+    },
+    {
+      "code": "102110",
+      "name": "TIGER 200",
+      "market": "KOSPI",
+      "price": 106215,
+      "change_rate": -3.64,
+      "marcap": 101966.0,
       "per": null,
       "pbr": null,
       "recent_revenue": null,
@@ -2340,12 +2321,12 @@
       }
     },
     {
-      "code": "396500",
-      "name": "TIGER 반도체TOP10",
+      "code": "379800",
+      "name": "KODEX 미국S&P500",
       "market": "KOSPI",
-      "price": 36470,
-      "change_rate": 0.75,
-      "marcap": 98123.0,
+      "price": 23845,
+      "change_rate": -0.27,
+      "marcap": 99565.0,
       "per": null,
       "pbr": null,
       "recent_revenue": null,
@@ -2362,10 +2343,10 @@
       "code": "005940",
       "name": "NH투자증권",
       "market": "KOSPI",
-      "price": 26100,
-      "change_rate": -1.51,
-      "marcap": 96363.0,
-      "per": 7.32,
+      "price": 25950,
+      "change_rate": -0.57,
+      "marcap": 95809.0,
+      "per": 7.28,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": 8791.6,
@@ -2393,11 +2374,11 @@
       "code": "003490",
       "name": "대한항공",
       "market": "KOSPI",
-      "price": 25800,
-      "change_rate": 2.99,
-      "marcap": 95001.0,
-      "per": 15.45,
-      "pbr": 1.82,
+      "price": 26000,
+      "change_rate": 0.78,
+      "marcap": 95737.0,
+      "per": -37.52,
+      "pbr": -4.43,
       "recent_revenue": 161166.2,
       "recent_op_income": 19033.6,
       "recent_op_margin": 11.81,
@@ -2425,87 +2406,14 @@
       }
     },
     {
-      "code": "006260",
-      "name": "LS",
-      "market": "KOSPI",
-      "price": 293500,
-      "change_rate": -6.38,
-      "marcap": 91572.0,
-      "per": 21.67,
-      "pbr": 17.62,
-      "recent_revenue": 3400.9,
-      "recent_op_income": 2764.5,
-      "recent_op_margin": 81.29,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          174913.4,
-          5089.7,
-          3400.9
-        ],
-        "op_incomes": [
-          5422.4,
-          4487.2,
-          2764.5
-        ],
-        "op_margins": [
-          3.1,
-          88.16,
-          81.29
-        ]
-      }
-    },
-    {
-      "code": "379810",
-      "name": "KODEX 미국나스닥100",
-      "market": "KOSPI",
-      "price": 26875,
-      "change_rate": -1.32,
-      "marcap": 91496.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
-      "code": "0126Z0",
-      "name": "삼성에피스홀딩스",
-      "market": "KOSPI",
-      "price": 360000,
-      "change_rate": -5.01,
-      "marcap": 89579.0,
-      "per": 16.97,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
       "code": "047050",
       "name": "포스코인터내셔널",
       "market": "KOSPI",
-      "price": 50600,
-      "change_rate": -3.25,
-      "marcap": 89017.0,
-      "per": 14.49,
-      "pbr": 0.47,
+      "price": 53600,
+      "change_rate": 5.93,
+      "marcap": 94295.0,
+      "per": 11.38,
+      "pbr": 0.37,
       "recent_revenue": 273887.4,
       "recent_op_income": 8815.2,
       "recent_op_margin": 3.22,
@@ -2533,14 +2441,33 @@
       }
     },
     {
+      "code": "396500",
+      "name": "TIGER 반도체TOP10",
+      "market": "KOSPI",
+      "price": 34700,
+      "change_rate": -4.85,
+      "marcap": 93777.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
+      }
+    },
+    {
       "code": "443060",
       "name": "HD현대마린솔루션",
       "market": "KOSPI",
-      "price": 197700,
-      "change_rate": -2.61,
-      "marcap": 88636.0,
-      "per": 26.5,
-      "pbr": 4.89,
+      "price": 206500,
+      "change_rate": 4.45,
+      "marcap": 92581.0,
+      "per": 27.68,
+      "pbr": 5.11,
       "recent_revenue": 13013.2,
       "recent_op_income": 2401.9,
       "recent_op_margin": 18.46,
@@ -2560,12 +2487,85 @@
       }
     },
     {
+      "code": "0126Z0",
+      "name": "삼성에피스홀딩스",
+      "market": "KOSPI",
+      "price": 368500,
+      "change_rate": 2.36,
+      "marcap": 91694.0,
+      "per": 17.37,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
+      }
+    },
+    {
+      "code": "379810",
+      "name": "KODEX 미국나스닥100",
+      "market": "KOSPI",
+      "price": 26595,
+      "change_rate": -1.04,
+      "marcap": 91327.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
+      }
+    },
+    {
+      "code": "006260",
+      "name": "LS",
+      "market": "KOSPI",
+      "price": 288500,
+      "change_rate": -1.7,
+      "marcap": 90012.0,
+      "per": 21.3,
+      "pbr": 17.31,
+      "recent_revenue": 3400.9,
+      "recent_op_income": 2764.5,
+      "recent_op_margin": 81.29,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          174913.4,
+          5089.7,
+          3400.9
+        ],
+        "op_incomes": [
+          5422.4,
+          4487.2,
+          2764.5
+        ],
+        "op_margins": [
+          3.1,
+          88.16,
+          81.29
+        ]
+      }
+    },
+    {
       "code": "028050",
       "name": "삼성E&A",
       "market": "KOSPI",
-      "price": 45150,
-      "change_rate": -6.04,
-      "marcap": 88494.0,
+      "price": 44800,
+      "change_rate": -0.78,
+      "marcap": 87808.0,
       "per": 14.22,
       "pbr": 2.0,
       "recent_revenue": 67132.3,
@@ -2595,45 +2595,14 @@
       }
     },
     {
-      "code": "016360",
-      "name": "삼성증권",
-      "market": "KOSPI",
-      "price": 92000,
-      "change_rate": -0.43,
-      "marcap": 82156.0,
-      "per": 6.79,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": 11054.9,
-      "recent_op_margin": null,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          null,
-          null
-        ],
-        "op_incomes": [
-          6620.3,
-          11054.9
-        ],
-        "op_margins": [
-          null,
-          null
-        ]
-      }
-    },
-    {
       "code": "161390",
       "name": "한국타이어앤테크놀로지",
       "market": "KOSPI",
-      "price": 66000,
-      "change_rate": -0.75,
-      "marcap": 81758.0,
-      "per": 7.5,
-      "pbr": 0.31,
+      "price": 66800,
+      "change_rate": 1.21,
+      "marcap": 82749.0,
+      "per": 6.82,
+      "pbr": 0.28,
       "recent_revenue": 32985.7,
       "recent_op_income": 1370.9,
       "recent_op_margin": 4.16,
@@ -2661,14 +2630,33 @@
       }
     },
     {
+      "code": "488770",
+      "name": "KODEX 머니마켓액티브",
+      "market": "KOSPI",
+      "price": 105320,
+      "change_rate": 0.01,
+      "marcap": 82192.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
+      }
+    },
+    {
       "code": "090430",
       "name": "아모레퍼시픽",
       "market": "KOSPI",
-      "price": 138000,
-      "change_rate": 1.02,
-      "marcap": 80720.0,
-      "per": 40.83,
-      "pbr": 2.16,
+      "price": 139900,
+      "change_rate": 1.38,
+      "marcap": 81831.0,
+      "per": 40.99,
+      "pbr": 2.17,
       "recent_revenue": 24137.9,
       "recent_op_income": 1279.5,
       "recent_op_margin": 5.3,
@@ -2696,52 +2684,14 @@
       }
     },
     {
-      "code": "488770",
-      "name": "KODEX 머니마켓액티브",
-      "market": "KOSPI",
-      "price": 105305,
-      "change_rate": 0.02,
-      "marcap": 79303.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
-      "code": "278530",
-      "name": "KODEX 200TR",
-      "market": "KOSPI",
-      "price": 39825,
-      "change_rate": 1.66,
-      "marcap": 78734.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
       "code": "180640",
       "name": "한진칼",
       "market": "KOSPI",
-      "price": 117900,
-      "change_rate": 2.97,
-      "marcap": 78713.0,
-      "per": 47.39,
-      "pbr": 38.83,
+      "price": 121500,
+      "change_rate": 3.05,
+      "marcap": 81116.0,
+      "per": 52.76,
+      "pbr": 43.23,
       "recent_revenue": 1355.7,
       "recent_op_income": 1110.8,
       "recent_op_margin": 81.94,
@@ -2769,49 +2719,64 @@
       }
     },
     {
-      "code": "007660",
-      "name": "이수페타시스",
+      "code": "016360",
+      "name": "삼성증권",
       "market": "KOSPI",
-      "price": 99300,
-      "change_rate": -5.43,
-      "marcap": 72895.0,
-      "per": 41.86,
-      "pbr": 4.57,
-      "recent_revenue": 7187.3,
-      "recent_op_income": 784.8,
-      "recent_op_margin": 10.92,
+      "price": 86600,
+      "change_rate": -5.87,
+      "marcap": 77334.0,
+      "per": 6.39,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": 11054.9,
+      "recent_op_margin": null,
       "history": {
         "years": [
-          "2022년",
           "2023년",
           "2024년"
         ],
         "revenues": [
-          4972.1,
-          5790.5,
-          7187.3
+          null,
+          null
         ],
         "op_incomes": [
-          963.7,
-          502.2,
-          784.8
+          6620.3,
+          11054.9
         ],
         "op_margins": [
-          19.38,
-          8.67,
-          10.92
+          null,
+          null
         ]
+      }
+    },
+    {
+      "code": "278530",
+      "name": "KODEX 200TR",
+      "market": "KOSPI",
+      "price": 38380,
+      "change_rate": -3.63,
+      "marcap": 75992.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
       }
     },
     {
       "code": "352820",
       "name": "하이브",
       "market": "KOSPI",
-      "price": 167900,
-      "change_rate": -3.17,
-      "marcap": 72376.0,
-      "per": -15.52,
-      "pbr": -0.86,
+      "price": 174600,
+      "change_rate": 3.99,
+      "marcap": 75265.0,
+      "per": -16.14,
+      "pbr": -0.89,
       "recent_revenue": 6696.7,
       "recent_op_income": 369.4,
       "recent_op_margin": 5.52,
@@ -2839,13 +2804,48 @@
       }
     },
     {
+      "code": "007660",
+      "name": "이수페타시스",
+      "market": "KOSPI",
+      "price": 100600,
+      "change_rate": 1.31,
+      "marcap": 73850.0,
+      "per": 42.41,
+      "pbr": 4.63,
+      "recent_revenue": 7187.3,
+      "recent_op_income": 784.8,
+      "recent_op_margin": 10.92,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          4972.1,
+          5790.5,
+          7187.3
+        ],
+        "op_incomes": [
+          963.7,
+          502.2,
+          784.8
+        ],
+        "op_margins": [
+          19.38,
+          8.67,
+          10.92
+        ]
+      }
+    },
+    {
       "code": "009830",
       "name": "한화솔루션",
       "market": "KOSPI",
-      "price": 32050,
-      "change_rate": -8.95,
-      "marcap": 72078.0,
-      "per": -36.38,
+      "price": 32150,
+      "change_rate": 0.31,
+      "marcap": 72303.0,
+      "per": -36.49,
       "pbr": 0.97,
       "recent_revenue": 61349.4,
       "recent_op_income": -1635.9,
@@ -2877,10 +2877,10 @@
       "code": "039490",
       "name": "키움증권",
       "market": "KOSPI",
-      "price": 268000,
-      "change_rate": -2.72,
-      "marcap": 70292.0,
-      "per": 5.39,
+      "price": 267500,
+      "change_rate": -0.19,
+      "marcap": 70161.0,
+      "per": 5.38,
       "pbr": 0.54,
       "recent_revenue": 102101.8,
       "recent_op_income": 10247.3,
@@ -2908,11 +2908,11 @@
       "code": "064400",
       "name": "LG씨엔에스",
       "market": "KOSPI",
-      "price": 71600,
-      "change_rate": -2.98,
-      "marcap": 69370.0,
-      "per": 14.41,
-      "pbr": 1.1,
+      "price": 72300,
+      "change_rate": 0.98,
+      "marcap": 70049.0,
+      "per": 14.55,
+      "pbr": 1.11,
       "recent_revenue": 54075.9,
       "recent_op_income": 4134.9,
       "recent_op_margin": 7.65,
@@ -2936,33 +2936,49 @@
       }
     },
     {
-      "code": "005387",
-      "name": "현대차2우B",
+      "code": "128940",
+      "name": "한미약품",
       "market": "KOSPI",
-      "price": 196100,
-      "change_rate": -1.31,
-      "marcap": 68564.0,
-      "per": 6.39,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
+      "price": 540000,
+      "change_rate": 29.96,
+      "marcap": 69179.0,
+      "per": 40.8,
+      "pbr": 4.86,
+      "recent_revenue": 11141.2,
+      "recent_op_income": 1327.0,
+      "recent_op_margin": 11.91,
       "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          9820.5,
+          10969.5,
+          11141.2
+        ],
+        "op_incomes": [
+          791.1,
+          1296.3,
+          1327.0
+        ],
+        "op_margins": [
+          8.06,
+          11.82,
+          11.91
+        ]
       }
     },
     {
       "code": "021240",
       "name": "코웨이",
       "market": "KOSPI",
-      "price": 95900,
-      "change_rate": 2.68,
-      "marcap": 67866.0,
-      "per": 11.21,
-      "pbr": 2.08,
+      "price": 97500,
+      "change_rate": 1.67,
+      "marcap": 68998.0,
+      "per": 10.2,
+      "pbr": 1.89,
       "recent_revenue": 31156.4,
       "recent_op_income": 5768.7,
       "recent_op_margin": 18.52,
@@ -2990,13 +3006,13 @@
       }
     },
     {
-      "code": "459580",
-      "name": "KODEX CD금리액티브(합성)",
+      "code": "005387",
+      "name": "현대차2우B",
       "market": "KOSPI",
-      "price": 1075450,
-      "change_rate": 0.01,
-      "marcap": 66164.0,
-      "per": null,
+      "price": 195200,
+      "change_rate": -0.46,
+      "marcap": 68250.0,
+      "per": 6.36,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": null,
@@ -3009,49 +3025,14 @@
       }
     },
     {
-      "code": "000100",
-      "name": "유한양행",
-      "market": "KOSPI",
-      "price": 82300,
-      "change_rate": -1.32,
-      "marcap": 65550.0,
-      "per": 28.12,
-      "pbr": 0.98,
-      "recent_revenue": 20083.6,
-      "recent_op_income": 701.1,
-      "recent_op_margin": 3.49,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          17263.6,
-          18090.8,
-          20083.6
-        ],
-        "op_incomes": [
-          411.2,
-          572.1,
-          701.1
-        ],
-        "op_margins": [
-          2.38,
-          3.16,
-          3.49
-        ]
-      }
-    },
-    {
       "code": "326030",
       "name": "SK바이오팜",
       "market": "KOSPI",
-      "price": 83700,
-      "change_rate": -3.24,
-      "marcap": 65548.0,
-      "per": 24.55,
-      "pbr": 5.31,
+      "price": 86400,
+      "change_rate": 3.23,
+      "marcap": 67663.0,
+      "per": 16.88,
+      "pbr": 3.65,
       "recent_revenue": 4744.3,
       "recent_op_income": 1026.2,
       "recent_op_margin": 21.63,
@@ -3079,14 +3060,68 @@
       }
     },
     {
+      "code": "000100",
+      "name": "유한양행",
+      "market": "KOSPI",
+      "price": 84300,
+      "change_rate": 2.43,
+      "marcap": 67143.0,
+      "per": 28.8,
+      "pbr": 1.01,
+      "recent_revenue": 20083.6,
+      "recent_op_income": 701.1,
+      "recent_op_margin": 3.49,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          17263.6,
+          18090.8,
+          20083.6
+        ],
+        "op_incomes": [
+          411.2,
+          572.1,
+          701.1
+        ],
+        "op_margins": [
+          2.38,
+          3.16,
+          3.49
+        ]
+      }
+    },
+    {
+      "code": "459580",
+      "name": "KODEX CD금리액티브(합성)",
+      "market": "KOSPI",
+      "price": 1075535,
+      "change_rate": 0.01,
+      "marcap": 66117.0,
+      "per": null,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
+      }
+    },
+    {
       "code": "047040",
       "name": "대우건설",
       "market": "KOSPI",
-      "price": 15930,
-      "change_rate": -4.67,
-      "marcap": 65458.0,
-      "per": -7.26,
-      "pbr": -0.08,
+      "price": 15760,
+      "change_rate": -1.07,
+      "marcap": 64759.0,
+      "per": -11.57,
+      "pbr": -0.14,
       "recent_revenue": 93973.2,
       "recent_op_income": 1096.5,
       "recent_op_margin": 1.17,
@@ -3118,7 +3153,7 @@
       "name": "LG유플러스",
       "market": "KOSPI",
       "price": 14870,
-      "change_rate": 1.43,
+      "change_rate": 0.0,
       "marcap": 63112.0,
       "per": 11.93,
       "pbr": 0.78,
@@ -3149,36 +3184,17 @@
       }
     },
     {
-      "code": "498400",
-      "name": "KODEX 200타겟위클리커버드콜",
+      "code": "267270",
+      "name": "HD건설기계",
       "market": "KOSPI",
-      "price": 20775,
-      "change_rate": 1.42,
-      "marcap": 59250.0,
-      "per": null,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
-      "code": "000880",
-      "name": "한화",
-      "market": "KOSPI",
-      "price": 83800,
-      "change_rate": 0.0,
-      "marcap": 59086.0,
-      "per": 9.74,
-      "pbr": 0.51,
-      "recent_revenue": 58825.4,
-      "recent_op_income": 3082.3,
-      "recent_op_margin": 5.24,
+      "price": 127100,
+      "change_rate": 10.04,
+      "marcap": 60909.0,
+      "per": 9.82,
+      "pbr": 0.35,
+      "recent_revenue": 19361.5,
+      "recent_op_income": 696.5,
+      "recent_op_margin": 3.6,
       "history": {
         "years": [
           "2022년",
@@ -3186,19 +3202,19 @@
           "2024년"
         ],
         "revenues": [
-          38799.2,
-          71863.5,
-          58825.4
+          25712.1,
+          25745.7,
+          19361.5
         ],
         "op_incomes": [
-          1945.3,
-          1717.9,
-          3082.3
+          1450.7,
+          2147.7,
+          696.5
         ],
         "op_margins": [
-          5.01,
-          2.39,
-          5.24
+          5.64,
+          8.34,
+          3.6
         ]
       }
     },
@@ -3206,11 +3222,11 @@
       "code": "196170",
       "name": "알테오젠",
       "market": "KOSDAQ",
-      "price": 320000,
-      "change_rate": -5.74,
-      "marcap": 171476.0,
-      "per": 172.23,
-      "pbr": 56.75,
+      "price": 320500,
+      "change_rate": 0.16,
+      "marcap": 171744.0,
+      "per": 172.5,
+      "pbr": 56.84,
       "recent_revenue": 929.7,
       "recent_op_income": 306.3,
       "recent_op_margin": 32.95,
@@ -3241,11 +3257,11 @@
       "code": "086520",
       "name": "에코프로",
       "market": "KOSDAQ",
-      "price": 81700,
-      "change_rate": -7.26,
-      "marcap": 110929.0,
-      "per": 180.75,
-      "pbr": 50.79,
+      "price": 87900,
+      "change_rate": 7.59,
+      "marcap": 119347.0,
+      "per": 194.47,
+      "pbr": 54.65,
       "recent_revenue": 1150.0,
       "recent_op_income": 323.1,
       "recent_op_margin": 28.1,
@@ -3276,11 +3292,11 @@
       "code": "247540",
       "name": "에코프로비엠",
       "market": "KOSDAQ",
-      "price": 105600,
-      "change_rate": -7.45,
-      "marcap": 103309.0,
-      "per": 180.51,
-      "pbr": -35.15,
+      "price": 117000,
+      "change_rate": 10.8,
+      "marcap": 114462.0,
+      "per": 290.32,
+      "pbr": -56.53,
       "recent_revenue": 6934.4,
       "recent_op_income": -1350.0,
       "recent_op_margin": -19.47,
@@ -3311,11 +3327,11 @@
       "code": "277810",
       "name": "레인보우로보틱스",
       "market": "KOSDAQ",
-      "price": 454000,
-      "change_rate": -3.71,
-      "marcap": 88075.0,
-      "per": 7093.75,
-      "pbr": -833.52,
+      "price": 444500,
+      "change_rate": -2.09,
+      "marcap": 86232.0,
+      "per": 6945.31,
+      "pbr": -816.07,
       "recent_revenue": 197.4,
       "recent_op_income": -23.2,
       "recent_op_margin": -11.75,
@@ -3346,11 +3362,11 @@
       "code": "036930",
       "name": "주성엔지니어링",
       "market": "KOSDAQ",
-      "price": 168600,
-      "change_rate": -4.91,
-      "marcap": 78367.0,
-      "per": 1170.83,
-      "pbr": 280.65,
+      "price": 166000,
+      "change_rate": -1.54,
+      "marcap": 77159.0,
+      "per": 1152.78,
+      "pbr": 276.32,
       "recent_revenue": 4093.8,
       "recent_op_income": 981.2,
       "recent_op_margin": 23.97,
@@ -3381,11 +3397,11 @@
       "code": "240810",
       "name": "원익IPS",
       "market": "KOSDAQ",
-      "price": 107900,
-      "change_rate": -5.27,
-      "marcap": 52962.0,
-      "per": 47.81,
-      "pbr": 0.64,
+      "price": 106400,
+      "change_rate": -1.39,
+      "marcap": 52225.0,
+      "per": 47.14,
+      "pbr": 0.63,
       "recent_revenue": 7483.0,
       "recent_op_income": 100.2,
       "recent_op_margin": 1.34,
@@ -3416,11 +3432,11 @@
       "code": "028300",
       "name": "HLB",
       "market": "KOSDAQ",
-      "price": 38650,
-      "change_rate": -3.13,
-      "marcap": 51481.0,
-      "per": -26.24,
-      "pbr": 22.78,
+      "price": 37850,
+      "change_rate": -2.07,
+      "marcap": 50416.0,
+      "per": -25.7,
+      "pbr": 22.31,
       "recent_revenue": 194.9,
       "recent_op_income": -169.2,
       "recent_op_margin": -86.81,
@@ -3451,11 +3467,11 @@
       "code": "058470",
       "name": "리노공업",
       "market": "KOSDAQ",
-      "price": 65700,
-      "change_rate": -5.47,
-      "marcap": 50071.0,
-      "per": 32.95,
-      "pbr": 14.71,
+      "price": 64600,
+      "change_rate": -1.67,
+      "marcap": 49233.0,
+      "per": 26.21,
+      "pbr": 11.7,
       "recent_revenue": 2781.9,
       "recent_op_income": 1242.0,
       "recent_op_margin": 44.65,
@@ -3486,11 +3502,11 @@
       "code": "039030",
       "name": "이오테크닉스",
       "market": "KOSDAQ",
-      "price": 404500,
-      "change_rate": -2.53,
-      "marcap": 49833.0,
-      "per": 67.33,
-      "pbr": 8.25,
+      "price": 388000,
+      "change_rate": -4.08,
+      "marcap": 47800.0,
+      "per": 64.58,
+      "pbr": 7.91,
       "recent_revenue": 2922.0,
       "recent_op_income": 358.0,
       "recent_op_margin": 12.25,
@@ -3518,84 +3534,14 @@
       }
     },
     {
-      "code": "298380",
-      "name": "에이비엘바이오",
-      "market": "KOSDAQ",
-      "price": 75200,
-      "change_rate": -8.85,
-      "marcap": 42103.0,
-      "per": -52.96,
-      "pbr": 93.67,
-      "recent_revenue": 334.0,
-      "recent_op_income": -590.7,
-      "recent_op_margin": -176.86,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          653.3,
-          635.5,
-          334.0
-        ],
-        "op_incomes": [
-          1.2,
-          -30.0,
-          -590.7
-        ],
-        "op_margins": [
-          0.18,
-          -4.72,
-          -176.86
-        ]
-      }
-    },
-    {
-      "code": "087010",
-      "name": "펩트론",
-      "market": "KOSDAQ",
-      "price": 178600,
-      "change_rate": -3.93,
-      "marcap": 41645.0,
-      "per": -250.49,
-      "pbr": 1314.47,
-      "recent_revenue": 31.5,
-      "recent_op_income": -165.3,
-      "recent_op_margin": -524.76,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          58.1,
-          33.4,
-          31.5
-        ],
-        "op_incomes": [
-          -152.3,
-          -158.8,
-          -165.3
-        ],
-        "op_margins": [
-          -262.13,
-          -475.45,
-          -524.76
-        ]
-      }
-    },
-    {
       "code": "214450",
       "name": "파마리서치",
       "market": "KOSDAQ",
-      "price": 400500,
-      "change_rate": -3.14,
-      "marcap": 41611.0,
-      "per": 26.3,
-      "pbr": 10.29,
+      "price": 416000,
+      "change_rate": 3.87,
+      "marcap": 43221.0,
+      "per": 27.32,
+      "pbr": 10.68,
       "recent_revenue": 3127.3,
       "recent_op_income": 1223.1,
       "recent_op_margin": 39.11,
@@ -3623,14 +3569,84 @@
       }
     },
     {
+      "code": "087010",
+      "name": "펩트론",
+      "market": "KOSDAQ",
+      "price": 182900,
+      "change_rate": 2.41,
+      "marcap": 42647.0,
+      "per": -256.52,
+      "pbr": 1346.11,
+      "recent_revenue": 31.5,
+      "recent_op_income": -165.3,
+      "recent_op_margin": -524.76,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          58.1,
+          33.4,
+          31.5
+        ],
+        "op_incomes": [
+          -152.3,
+          -158.8,
+          -165.3
+        ],
+        "op_margins": [
+          -262.13,
+          -475.45,
+          -524.76
+        ]
+      }
+    },
+    {
+      "code": "298380",
+      "name": "에이비엘바이오",
+      "market": "KOSDAQ",
+      "price": 75800,
+      "change_rate": 0.8,
+      "marcap": 42438.0,
+      "per": -53.38,
+      "pbr": 94.41,
+      "recent_revenue": 334.0,
+      "recent_op_income": -590.7,
+      "recent_op_margin": -176.86,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          653.3,
+          635.5,
+          334.0
+        ],
+        "op_incomes": [
+          1.2,
+          -30.0,
+          -590.7
+        ],
+        "op_margins": [
+          0.18,
+          -4.72,
+          -176.86
+        ]
+      }
+    },
+    {
       "code": "000250",
       "name": "삼천당제약",
       "market": "KOSDAQ",
-      "price": 168700,
-      "change_rate": -7.71,
-      "marcap": 39573.0,
-      "per": 386.93,
-      "pbr": -10.37,
+      "price": 170100,
+      "change_rate": 0.83,
+      "marcap": 39901.0,
+      "per": 390.14,
+      "pbr": -10.46,
       "recent_revenue": 1445.6,
       "recent_op_income": -38.7,
       "recent_op_margin": -2.68,
@@ -3661,11 +3677,11 @@
       "code": "222800",
       "name": "심텍",
       "market": "KOSDAQ",
-      "price": 99700,
-      "change_rate": -13.23,
-      "marcap": 37352.0,
-      "per": -70.71,
-      "pbr": 2.95,
+      "price": 105200,
+      "change_rate": 5.52,
+      "marcap": 39412.0,
+      "per": -74.61,
+      "pbr": 3.11,
       "recent_revenue": 9494.9,
       "recent_op_income": -395.7,
       "recent_op_margin": -4.17,
@@ -3693,49 +3709,14 @@
       }
     },
     {
-      "code": "108490",
-      "name": "로보티즈",
-      "market": "KOSDAQ",
-      "price": 254000,
-      "change_rate": -3.24,
-      "marcap": 37239.0,
-      "per": -572.07,
-      "pbr": 82.61,
-      "recent_revenue": 269.4,
-      "recent_op_income": -38.9,
-      "recent_op_margin": -14.44,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          243.8,
-          269.0,
-          269.4
-        ],
-        "op_incomes": [
-          -22.8,
-          -57.3,
-          -38.9
-        ],
-        "op_margins": [
-          -9.35,
-          -21.3,
-          -14.44
-        ]
-      }
-    },
-    {
       "code": "141080",
       "name": "리가켐바이오",
       "market": "KOSDAQ",
-      "price": 100000,
-      "change_rate": -7.66,
-      "marcap": 37019.0,
-      "per": -26.51,
-      "pbr": 4.46,
+      "price": 102900,
+      "change_rate": 2.9,
+      "marcap": 38093.0,
+      "per": -27.28,
+      "pbr": 4.59,
       "recent_revenue": 1259.0,
       "recent_op_income": -211.6,
       "recent_op_margin": -16.81,
@@ -3763,13 +3744,83 @@
       }
     },
     {
+      "code": "319660",
+      "name": "피에스케이",
+      "market": "KOSDAQ",
+      "price": 125300,
+      "change_rate": 2.54,
+      "marcap": 36295.0,
+      "per": 36.44,
+      "pbr": 5.48,
+      "recent_revenue": 3365.7,
+      "recent_op_income": 506.4,
+      "recent_op_margin": 15.05,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          4299.4,
+          3111.3,
+          3365.7
+        ],
+        "op_incomes": [
+          783.8,
+          347.9,
+          506.4
+        ],
+        "op_margins": [
+          18.23,
+          11.18,
+          15.05
+        ]
+      }
+    },
+    {
+      "code": "108490",
+      "name": "로보티즈",
+      "market": "KOSDAQ",
+      "price": 247500,
+      "change_rate": -2.56,
+      "marcap": 36286.0,
+      "per": -557.43,
+      "pbr": 80.49,
+      "recent_revenue": 269.4,
+      "recent_op_income": -38.9,
+      "recent_op_margin": -14.44,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          243.8,
+          269.0,
+          269.4
+        ],
+        "op_incomes": [
+          -22.8,
+          -57.3,
+          -38.9
+        ],
+        "op_margins": [
+          -9.35,
+          -21.3,
+          -14.44
+        ]
+      }
+    },
+    {
       "code": "403870",
       "name": "HPSP",
       "market": "KOSDAQ",
-      "price": 44900,
-      "change_rate": -6.46,
-      "marcap": 36953.0,
-      "per": 45.54,
+      "price": 43950,
+      "change_rate": -2.12,
+      "marcap": 36171.0,
+      "per": 44.57,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": 939.5,
@@ -3798,49 +3849,14 @@
       }
     },
     {
-      "code": "319660",
-      "name": "피에스케이",
-      "market": "KOSDAQ",
-      "price": 122200,
-      "change_rate": -6.07,
-      "marcap": 35397.0,
-      "per": 35.53,
-      "pbr": 5.35,
-      "recent_revenue": 3365.7,
-      "recent_op_income": 506.4,
-      "recent_op_margin": 15.05,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          4299.4,
-          3111.3,
-          3365.7
-        ],
-        "op_incomes": [
-          783.8,
-          347.9,
-          506.4
-        ],
-        "op_margins": [
-          18.23,
-          11.18,
-          15.05
-        ]
-      }
-    },
-    {
       "code": "095340",
       "name": "ISC",
       "market": "KOSDAQ",
-      "price": 154300,
-      "change_rate": -8.54,
-      "marcap": 32707.0,
-      "per": 46.89,
-      "pbr": 11.0,
+      "price": 154200,
+      "change_rate": -0.06,
+      "marcap": 32686.0,
+      "per": 46.86,
+      "pbr": 10.99,
       "recent_revenue": 1664.2,
       "recent_op_income": 390.4,
       "recent_op_margin": 23.46,
@@ -3871,11 +3887,11 @@
       "code": "257720",
       "name": "실리콘투",
       "market": "KOSDAQ",
-      "price": 47650,
-      "change_rate": 3.7,
-      "marcap": 31247.0,
-      "per": 16.97,
-      "pbr": 3.38,
+      "price": 49450,
+      "change_rate": 3.78,
+      "marcap": 32427.0,
+      "per": 17.61,
+      "pbr": 3.51,
       "recent_revenue": 6630.5,
       "recent_op_income": 1321.2,
       "recent_op_margin": 19.93,
@@ -3903,45 +3919,14 @@
       }
     },
     {
-      "code": "440110",
-      "name": "파두",
-      "market": "KOSDAQ",
-      "price": 61900,
-      "change_rate": -6.07,
-      "marcap": 31019.0,
-      "per": -31.18,
-      "pbr": 66.12,
-      "recent_revenue": 433.9,
-      "recent_op_income": -920.1,
-      "recent_op_margin": -212.05,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          224.3,
-          433.9
-        ],
-        "op_incomes": [
-          -586.1,
-          -920.1
-        ],
-        "op_margins": [
-          -261.3,
-          -212.05
-        ]
-      }
-    },
-    {
       "code": "145020",
       "name": "휴젤",
       "market": "KOSDAQ",
-      "price": 245000,
-      "change_rate": -1.61,
-      "marcap": 30662.0,
-      "per": 20.01,
-      "pbr": 6.96,
+      "price": 250500,
+      "change_rate": 2.24,
+      "marcap": 31350.0,
+      "per": 20.46,
+      "pbr": 7.12,
       "recent_revenue": 2690.1,
       "recent_op_income": 935.7,
       "recent_op_margin": 34.78,
@@ -3972,11 +3957,11 @@
       "code": "084370",
       "name": "유진테크",
       "market": "KOSDAQ",
-      "price": 128500,
-      "change_rate": -4.53,
-      "marcap": 29447.0,
-      "per": 51.96,
-      "pbr": 11.63,
+      "price": 135700,
+      "change_rate": 5.6,
+      "marcap": 31097.0,
+      "per": 54.87,
+      "pbr": 12.28,
       "recent_revenue": 2441.0,
       "recent_op_income": 546.3,
       "recent_op_margin": 22.38,
@@ -4004,13 +3989,44 @@
       }
     },
     {
+      "code": "440110",
+      "name": "파두",
+      "market": "KOSDAQ",
+      "price": 62000,
+      "change_rate": 0.16,
+      "marcap": 31069.0,
+      "per": -31.23,
+      "pbr": 66.22,
+      "recent_revenue": 433.9,
+      "recent_op_income": -920.1,
+      "recent_op_margin": -212.05,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          224.3,
+          433.9
+        ],
+        "op_incomes": [
+          -586.1,
+          -920.1
+        ],
+        "op_margins": [
+          -261.3,
+          -212.05
+        ]
+      }
+    },
+    {
       "code": "310210",
       "name": "보로노이",
       "market": "KOSDAQ",
-      "price": 152100,
-      "change_rate": -11.83,
-      "marcap": 28052.0,
-      "per": -55.29,
+      "price": 167600,
+      "change_rate": 10.19,
+      "marcap": 30911.0,
+      "per": -60.92,
       "pbr": null,
       "recent_revenue": 0.0,
       "recent_op_income": -363.7,
@@ -4042,11 +4058,11 @@
       "code": "214370",
       "name": "케어젠",
       "market": "KOSDAQ",
-      "price": 51900,
-      "change_rate": -3.89,
-      "marcap": 27878.0,
-      "per": 119.31,
-      "pbr": 49.49,
+      "price": 54200,
+      "change_rate": 4.43,
+      "marcap": 29114.0,
+      "per": 124.6,
+      "pbr": 51.68,
       "recent_revenue": 825.9,
       "recent_op_income": 342.6,
       "recent_op_margin": 41.48,
@@ -4074,189 +4090,14 @@
       }
     },
     {
-      "code": "095610",
-      "name": "테스",
-      "market": "KOSDAQ",
-      "price": 132900,
-      "change_rate": -6.54,
-      "marcap": 25729.0,
-      "per": 32.13,
-      "pbr": 5.21,
-      "recent_revenue": 2372.9,
-      "recent_op_income": 384.4,
-      "recent_op_margin": 16.2,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          3559.5,
-          1443.9,
-          2372.9
-        ],
-        "op_incomes": [
-          557.5,
-          -61.3,
-          384.4
-        ],
-        "op_margins": [
-          15.66,
-          -4.25,
-          16.2
-        ]
-      }
-    },
-    {
-      "code": "319400",
-      "name": "현대무벡스",
-      "market": "KOSDAQ",
-      "price": 22850,
-      "change_rate": -4.79,
-      "marcap": 25449.0,
-      "per": 253.89,
-      "pbr": 20.03,
-      "recent_revenue": 3285.5,
-      "recent_op_income": 259.3,
-      "recent_op_margin": 7.89,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2105.5,
-          2664.5,
-          3285.5
-        ],
-        "op_incomes": [
-          137.8,
-          77.6,
-          259.3
-        ],
-        "op_margins": [
-          6.54,
-          2.91,
-          7.89
-        ]
-      }
-    },
-    {
-      "code": "357780",
-      "name": "솔브레인",
-      "market": "KOSDAQ",
-      "price": 326000,
-      "change_rate": -1.95,
-      "marcap": 25358.0,
-      "per": 30.13,
-      "pbr": 5.85,
-      "recent_revenue": 7982.2,
-      "recent_op_income": 1549.0,
-      "recent_op_margin": 19.41,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          10475.7,
-          7953.3,
-          7982.2
-        ],
-        "op_incomes": [
-          null,
-          1310.9,
-          1549.0
-        ],
-        "op_margins": [
-          null,
-          16.48,
-          19.41
-        ]
-      }
-    },
-    {
-      "code": "080220",
-      "name": "제주반도체",
-      "market": "KOSDAQ",
-      "price": 73500,
-      "change_rate": -3.92,
-      "marcap": 25315.0,
-      "per": 10.97,
-      "pbr": 0.66,
-      "recent_revenue": 1592.3,
-      "recent_op_income": 95.7,
-      "recent_op_margin": 6.01,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1582.6,
-          1459.0,
-          1592.3
-        ],
-        "op_incomes": [
-          260.7,
-          175.1,
-          95.7
-        ],
-        "op_margins": [
-          16.47,
-          12.0,
-          6.01
-        ]
-      }
-    },
-    {
-      "code": "064760",
-      "name": "티씨케이",
-      "market": "KOSDAQ",
-      "price": 225500,
-      "change_rate": -1.74,
-      "marcap": 25210.0,
-      "per": 34.45,
-      "pbr": 10.09,
-      "recent_revenue": 2757.2,
-      "recent_op_income": 807.5,
-      "recent_op_margin": 29.29,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          3195.6,
-          2266.5,
-          2757.2
-        ],
-        "op_incomes": [
-          1270.3,
-          667.0,
-          807.5
-        ],
-        "op_margins": [
-          39.75,
-          29.43,
-          29.29
-        ]
-      }
-    },
-    {
       "code": "131290",
       "name": "티에스이",
       "market": "KOSDAQ",
-      "price": 222000,
-      "change_rate": -8.26,
-      "marcap": 24556.0,
-      "per": 34.09,
-      "pbr": 5.91,
+      "price": 245500,
+      "change_rate": 10.59,
+      "marcap": 27156.0,
+      "per": 37.69,
+      "pbr": 6.54,
       "recent_revenue": 2210.0,
       "recent_op_income": 383.2,
       "recent_op_margin": 17.34,
@@ -4287,11 +4128,11 @@
       "code": "347850",
       "name": "디앤디파마텍",
       "market": "KOSDAQ",
-      "price": 53300,
-      "change_rate": -7.79,
-      "marcap": 24431.0,
-      "per": -99.63,
-      "pbr": 121.15,
+      "price": 57300,
+      "change_rate": 7.5,
+      "marcap": 26265.0,
+      "per": -107.1,
+      "pbr": 130.23,
       "recent_revenue": 83.8,
       "recent_op_income": -101.9,
       "recent_op_margin": -121.6,
@@ -4311,17 +4152,17 @@
       }
     },
     {
-      "code": "067310",
-      "name": "하나마이크론",
+      "code": "095610",
+      "name": "테스",
       "market": "KOSDAQ",
-      "price": 35000,
-      "change_rate": -5.15,
-      "marcap": 23272.0,
-      "per": 22.62,
-      "pbr": 0.66,
-      "recent_revenue": 7976.2,
-      "recent_op_income": 231.8,
-      "recent_op_margin": 2.91,
+      "price": 133400,
+      "change_rate": 0.38,
+      "marcap": 25826.0,
+      "per": 32.25,
+      "pbr": 5.22,
+      "recent_revenue": 2372.9,
+      "recent_op_income": 384.4,
+      "recent_op_margin": 16.2,
       "history": {
         "years": [
           "2022년",
@@ -4329,34 +4170,34 @@
           "2024년"
         ],
         "revenues": [
-          6081.4,
-          5818.6,
-          7976.2
+          3559.5,
+          1443.9,
+          2372.9
         ],
         "op_incomes": [
-          521.7,
-          166.7,
-          231.8
+          557.5,
+          -61.3,
+          384.4
         ],
         "op_margins": [
-          8.58,
-          2.86,
-          2.91
+          15.66,
+          -4.25,
+          16.2
         ]
       }
     },
     {
-      "code": "031980",
-      "name": "피에스케이홀딩스",
+      "code": "357780",
+      "name": "솔브레인",
       "market": "KOSDAQ",
-      "price": 107500,
-      "change_rate": -6.85,
-      "marcap": 23180.0,
-      "per": 24.11,
-      "pbr": 8.1,
-      "recent_revenue": 1722.2,
-      "recent_op_income": 578.5,
-      "recent_op_margin": 33.59,
+      "price": 330000,
+      "change_rate": 1.23,
+      "marcap": 25669.0,
+      "per": 30.5,
+      "pbr": 5.92,
+      "recent_revenue": 7982.2,
+      "recent_op_income": 1549.0,
+      "recent_op_margin": 19.41,
       "history": {
         "years": [
           "2022년",
@@ -4364,19 +4205,124 @@
           "2024년"
         ],
         "revenues": [
-          615.3,
-          745.8,
-          1722.2
+          10475.7,
+          7953.3,
+          7982.2
         ],
         "op_incomes": [
-          125.8,
-          145.7,
-          578.5
+          null,
+          1310.9,
+          1549.0
         ],
         "op_margins": [
-          20.45,
-          19.54,
-          33.59
+          null,
+          16.48,
+          19.41
+        ]
+      }
+    },
+    {
+      "code": "319400",
+      "name": "현대무벡스",
+      "market": "KOSDAQ",
+      "price": 22900,
+      "change_rate": 0.22,
+      "marcap": 25505.0,
+      "per": 254.44,
+      "pbr": 20.08,
+      "recent_revenue": 3285.5,
+      "recent_op_income": 259.3,
+      "recent_op_margin": 7.89,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2105.5,
+          2664.5,
+          3285.5
+        ],
+        "op_incomes": [
+          137.8,
+          77.6,
+          259.3
+        ],
+        "op_margins": [
+          6.54,
+          2.91,
+          7.89
+        ]
+      }
+    },
+    {
+      "code": "064760",
+      "name": "티씨케이",
+      "market": "KOSDAQ",
+      "price": 227500,
+      "change_rate": 0.89,
+      "marcap": 25433.0,
+      "per": 34.76,
+      "pbr": 10.18,
+      "recent_revenue": 2757.2,
+      "recent_op_income": 807.5,
+      "recent_op_margin": 29.29,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          3195.6,
+          2266.5,
+          2757.2
+        ],
+        "op_incomes": [
+          1270.3,
+          667.0,
+          807.5
+        ],
+        "op_margins": [
+          39.75,
+          29.43,
+          29.29
+        ]
+      }
+    },
+    {
+      "code": "080220",
+      "name": "제주반도체",
+      "market": "KOSDAQ",
+      "price": 72800,
+      "change_rate": -0.95,
+      "marcap": 25074.0,
+      "per": 10.87,
+      "pbr": 0.65,
+      "recent_revenue": 1592.3,
+      "recent_op_income": 95.7,
+      "recent_op_margin": 6.01,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1582.6,
+          1459.0,
+          1592.3
+        ],
+        "op_incomes": [
+          260.7,
+          175.1,
+          95.7
+        ],
+        "op_margins": [
+          16.47,
+          12.0,
+          6.01
         ]
       }
     },
@@ -4384,11 +4330,11 @@
       "code": "178320",
       "name": "서진시스템",
       "market": "KOSDAQ",
-      "price": 36250,
-      "change_rate": -6.57,
-      "marcap": 23073.0,
-      "per": -16.71,
-      "pbr": -0.43,
+      "price": 38150,
+      "change_rate": 5.24,
+      "marcap": 24283.0,
+      "per": -17.58,
+      "pbr": -0.46,
       "recent_revenue": 6809.8,
       "recent_op_income": 176.6,
       "recent_op_margin": 2.59,
@@ -4416,17 +4362,17 @@
       }
     },
     {
-      "code": "058610",
-      "name": "에스피지",
+      "code": "031980",
+      "name": "피에스케이홀딩스",
       "market": "KOSDAQ",
-      "price": 95500,
-      "change_rate": -7.64,
-      "marcap": 21179.0,
-      "per": 223.65,
-      "pbr": 2.35,
-      "recent_revenue": 2281.7,
-      "recent_op_income": 24.0,
-      "recent_op_margin": 1.05,
+      "price": 110200,
+      "change_rate": 2.51,
+      "marcap": 23762.0,
+      "per": 24.72,
+      "pbr": 8.3,
+      "recent_revenue": 1722.2,
+      "recent_op_income": 578.5,
+      "recent_op_margin": 33.59,
       "history": {
         "years": [
           "2022년",
@@ -4434,89 +4380,19 @@
           "2024년"
         ],
         "revenues": [
-          2798.0,
-          2252.1,
-          2281.7
+          615.3,
+          745.8,
+          1722.2
         ],
         "op_incomes": [
-          83.3,
-          4.6,
-          24.0
+          125.8,
+          145.7,
+          578.5
         ],
         "op_margins": [
-          2.98,
-          0.2,
-          1.05
-        ]
-      }
-    },
-    {
-      "code": "214150",
-      "name": "클래시스",
-      "market": "KOSDAQ",
-      "price": 32150,
-      "change_rate": -4.32,
-      "marcap": 20973.0,
-      "per": 15.51,
-      "pbr": 7.88,
-      "recent_revenue": 2425.0,
-      "recent_op_income": 1231.7,
-      "recent_op_margin": 50.79,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1414.4,
-          1800.0,
-          2425.0
-        ],
-        "op_incomes": [
-          688.3,
-          896.9,
-          1231.7
-        ],
-        "op_margins": [
-          48.66,
-          49.83,
-          50.79
-        ]
-      }
-    },
-    {
-      "code": "005290",
-      "name": "동진쎄미켐",
-      "market": "KOSDAQ",
-      "price": 41100,
-      "change_rate": -4.86,
-      "marcap": 20949.0,
-      "per": 16.28,
-      "pbr": 2.75,
-      "recent_revenue": 10710.9,
-      "recent_op_income": 1808.4,
-      "recent_op_margin": 16.88,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          10502.7,
-          9672.8,
-          10710.9
-        ],
-        "op_incomes": [
-          1798.5,
-          1355.2,
-          1808.4
-        ],
-        "op_margins": [
-          17.12,
-          14.01,
-          16.88
+          20.45,
+          19.54,
+          33.59
         ]
       }
     },
@@ -4524,11 +4400,11 @@
       "code": "237690",
       "name": "에스티팜",
       "market": "KOSDAQ",
-      "price": 99700,
-      "change_rate": -10.1,
-      "marcap": 20814.0,
-      "per": 29.58,
-      "pbr": 4.62,
+      "price": 110200,
+      "change_rate": 10.53,
+      "marcap": 23006.0,
+      "per": 32.7,
+      "pbr": 5.11,
       "recent_revenue": 2440.7,
       "recent_op_income": 381.4,
       "recent_op_margin": 15.63,
@@ -4556,13 +4432,83 @@
       }
     },
     {
+      "code": "067310",
+      "name": "하나마이크론",
+      "market": "KOSDAQ",
+      "price": 34500,
+      "change_rate": -1.43,
+      "marcap": 22939.0,
+      "per": 22.3,
+      "pbr": 0.65,
+      "recent_revenue": 7976.2,
+      "recent_op_income": 231.8,
+      "recent_op_margin": 2.91,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          6081.4,
+          5818.6,
+          7976.2
+        ],
+        "op_incomes": [
+          521.7,
+          166.7,
+          231.8
+        ],
+        "op_margins": [
+          8.58,
+          2.86,
+          2.91
+        ]
+      }
+    },
+    {
+      "code": "214150",
+      "name": "클래시스",
+      "market": "KOSDAQ",
+      "price": 33400,
+      "change_rate": 3.89,
+      "marcap": 21789.0,
+      "per": 16.11,
+      "pbr": 8.18,
+      "recent_revenue": 2425.0,
+      "recent_op_income": 1231.7,
+      "recent_op_margin": 50.79,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1414.4,
+          1800.0,
+          2425.0
+        ],
+        "op_incomes": [
+          688.3,
+          896.9,
+          1231.7
+        ],
+        "op_margins": [
+          48.66,
+          49.83,
+          50.79
+        ]
+      }
+    },
+    {
       "code": "226950",
       "name": "올릭스",
       "market": "KOSDAQ",
-      "price": 98100,
-      "change_rate": -10.33,
-      "marcap": 20663.0,
-      "per": -170.02,
+      "price": 102200,
+      "change_rate": 4.18,
+      "marcap": 21526.0,
+      "per": -177.12,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": -257.3,
@@ -4591,14 +4537,119 @@
       }
     },
     {
+      "code": "005290",
+      "name": "동진쎄미켐",
+      "market": "KOSDAQ",
+      "price": 42000,
+      "change_rate": 2.19,
+      "marcap": 21407.0,
+      "per": 16.63,
+      "pbr": 2.81,
+      "recent_revenue": 10710.9,
+      "recent_op_income": 1808.4,
+      "recent_op_margin": 16.88,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          10502.7,
+          9672.8,
+          10710.9
+        ],
+        "op_incomes": [
+          1798.5,
+          1355.2,
+          1808.4
+        ],
+        "op_margins": [
+          17.12,
+          14.01,
+          16.88
+        ]
+      }
+    },
+    {
+      "code": "058610",
+      "name": "에스피지",
+      "market": "KOSDAQ",
+      "price": 94000,
+      "change_rate": -1.57,
+      "marcap": 20847.0,
+      "per": 220.14,
+      "pbr": 2.31,
+      "recent_revenue": 2281.7,
+      "recent_op_income": 24.0,
+      "recent_op_margin": 1.05,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2798.0,
+          2252.1,
+          2281.7
+        ],
+        "op_incomes": [
+          83.3,
+          4.6,
+          24.0
+        ],
+        "op_margins": [
+          2.98,
+          0.2,
+          1.05
+        ]
+      }
+    },
+    {
+      "code": "010170",
+      "name": "대한광통신",
+      "market": "KOSDAQ",
+      "price": 13150,
+      "change_rate": 8.5,
+      "marcap": 20446.0,
+      "per": -68.49,
+      "pbr": 21.23,
+      "recent_revenue": 949.4,
+      "recent_op_income": -294.3,
+      "recent_op_margin": -31.0,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1392.1,
+          1233.0,
+          949.4
+        ],
+        "op_incomes": [
+          17.2,
+          -258.9,
+          -294.3
+        ],
+        "op_margins": [
+          1.24,
+          -21.0,
+          -31.0
+        ]
+      }
+    },
+    {
       "code": "032820",
       "name": "우리기술",
       "market": "KOSDAQ",
-      "price": 11890,
-      "change_rate": -2.46,
-      "marcap": 20544.0,
-      "per": 58.86,
-      "pbr": 1.86,
+      "price": 11800,
+      "change_rate": -0.76,
+      "marcap": 20389.0,
+      "per": 58.42,
+      "pbr": 1.85,
       "recent_revenue": 366.8,
       "recent_op_income": 11.6,
       "recent_op_margin": 3.16,
@@ -4630,7 +4681,7 @@
       "name": "펄어비스",
       "market": "KOSDAQ",
       "price": 32200,
-      "change_rate": 0.47,
+      "change_rate": 0.0,
       "marcap": 20236.0,
       "per": 13.88,
       "pbr": 1.46,
@@ -4661,48 +4712,13 @@
       }
     },
     {
-      "code": "098460",
-      "name": "고영",
-      "market": "KOSDAQ",
-      "price": 28300,
-      "change_rate": -5.35,
-      "marcap": 19302.0,
-      "per": 71.28,
-      "pbr": 1.02,
-      "recent_revenue": 1728.7,
-      "recent_op_income": 24.7,
-      "recent_op_margin": 1.43,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2418.7,
-          2009.9,
-          1728.7
-        ],
-        "op_incomes": [
-          396.4,
-          214.3,
-          24.7
-        ],
-        "op_margins": [
-          16.39,
-          10.66,
-          1.43
-        ]
-      }
-    },
-    {
       "code": "140410",
       "name": "메지온",
       "market": "KOSDAQ",
-      "price": 62800,
-      "change_rate": -1.57,
-      "marcap": 19221.0,
-      "per": -51.39,
+      "price": 64700,
+      "change_rate": 3.03,
+      "marcap": 19802.0,
+      "per": -52.95,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": -38.4,
@@ -4731,49 +4747,14 @@
       }
     },
     {
-      "code": "010170",
-      "name": "대한광통신",
-      "market": "KOSDAQ",
-      "price": 12120,
-      "change_rate": -4.19,
-      "marcap": 18845.0,
-      "per": -63.12,
-      "pbr": 19.57,
-      "recent_revenue": 949.4,
-      "recent_op_income": -294.3,
-      "recent_op_margin": -31.0,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1392.1,
-          1233.0,
-          949.4
-        ],
-        "op_incomes": [
-          17.2,
-          -258.9,
-          -294.3
-        ],
-        "op_margins": [
-          1.24,
-          -21.0,
-          -31.0
-        ]
-      }
-    },
-    {
       "code": "068760",
       "name": "셀트리온제약",
       "market": "KOSDAQ",
-      "price": 41550,
-      "change_rate": -3.26,
-      "marcap": 18449.0,
-      "per": 46.01,
-      "pbr": 3.58,
+      "price": 42800,
+      "change_rate": 3.01,
+      "marcap": 19004.0,
+      "per": 47.4,
+      "pbr": 3.69,
       "recent_revenue": 4778.4,
       "recent_op_income": 372.2,
       "recent_op_margin": 7.79,
@@ -4801,14 +4782,49 @@
       }
     },
     {
+      "code": "098460",
+      "name": "고영",
+      "market": "KOSDAQ",
+      "price": 27250,
+      "change_rate": -3.71,
+      "marcap": 18586.0,
+      "per": 68.64,
+      "pbr": 0.98,
+      "recent_revenue": 1728.7,
+      "recent_op_income": 24.7,
+      "recent_op_margin": 1.43,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2418.7,
+          2009.9,
+          1728.7
+        ],
+        "op_incomes": [
+          396.4,
+          214.3,
+          24.7
+        ],
+        "op_margins": [
+          16.39,
+          10.66,
+          1.43
+        ]
+      }
+    },
+    {
       "code": "140860",
       "name": "파크시스템스",
       "market": "KOSDAQ",
-      "price": 259500,
-      "change_rate": -2.99,
-      "marcap": 18171.0,
-      "per": 73.64,
-      "pbr": 17.11,
+      "price": 265000,
+      "change_rate": 2.12,
+      "marcap": 18557.0,
+      "per": 75.2,
+      "pbr": 17.48,
       "recent_revenue": 1418.5,
       "recent_op_income": 329.7,
       "recent_op_margin": 23.24,
@@ -4836,48 +4852,13 @@
       }
     },
     {
-      "code": "089030",
-      "name": "테크윙",
-      "market": "KOSDAQ",
-      "price": 48400,
-      "change_rate": -5.28,
-      "marcap": 17934.0,
-      "per": 393.5,
-      "pbr": 54.7,
-      "recent_revenue": 1639.0,
-      "recent_op_income": 227.8,
-      "recent_op_margin": 13.9,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2334.3,
-          1143.9,
-          1639.0
-        ],
-        "op_incomes": [
-          560.3,
-          56.7,
-          227.8
-        ],
-        "op_margins": [
-          24.0,
-          4.96,
-          13.9
-        ]
-      }
-    },
-    {
       "code": "950160",
       "name": "코오롱티슈진",
       "market": "KOSDAQ",
-      "price": 20750,
-      "change_rate": -4.16,
-      "marcap": 17631.0,
-      "per": -5.99,
+      "price": 20350,
+      "change_rate": -1.93,
+      "marcap": 17291.0,
+      "per": -5.87,
       "pbr": null,
       "recent_revenue": 0.0,
       "recent_op_income": -0.2,
@@ -4906,14 +4887,49 @@
       }
     },
     {
+      "code": "089030",
+      "name": "테크윙",
+      "market": "KOSDAQ",
+      "price": 46650,
+      "change_rate": -3.62,
+      "marcap": 17286.0,
+      "per": 379.27,
+      "pbr": 52.72,
+      "recent_revenue": 1639.0,
+      "recent_op_income": 227.8,
+      "recent_op_margin": 13.9,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2334.3,
+          1143.9,
+          1639.0
+        ],
+        "op_incomes": [
+          560.3,
+          56.7,
+          227.8
+        ],
+        "op_margins": [
+          24.0,
+          4.96,
+          13.9
+        ]
+      }
+    },
+    {
       "code": "083650",
       "name": "비에이치아이",
       "market": "KOSDAQ",
-      "price": 56500,
-      "change_rate": -5.68,
-      "marcap": 17484.0,
-      "per": 28.38,
-      "pbr": 1.89,
+      "price": 55800,
+      "change_rate": -1.24,
+      "marcap": 17267.0,
+      "per": 28.03,
+      "pbr": 1.87,
       "recent_revenue": 3991.7,
       "recent_op_income": 266.3,
       "recent_op_margin": 6.67,
@@ -4941,84 +4957,14 @@
       }
     },
     {
-      "code": "041510",
-      "name": "에스엠",
-      "market": "KOSDAQ",
-      "price": 71300,
-      "change_rate": -4.55,
-      "marcap": 16324.0,
-      "per": 12.42,
-      "pbr": 2.11,
-      "recent_revenue": 6627.5,
-      "recent_op_income": 1123.3,
-      "recent_op_margin": 16.95,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          5137.8,
-          6194.9,
-          6627.5
-        ],
-        "op_incomes": [
-          995.7,
-          1149.6,
-          1123.3
-        ],
-        "op_margins": [
-          19.38,
-          18.56,
-          16.95
-        ]
-      }
-    },
-    {
-      "code": "060370",
-      "name": "LS마린솔루션",
-      "market": "KOSDAQ",
-      "price": 30950,
-      "change_rate": -4.33,
-      "marcap": 16168.0,
-      "per": 119.96,
-      "pbr": 10.98,
-      "recent_revenue": 1099.7,
-      "recent_op_income": 100.6,
-      "recent_op_margin": 9.15,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          427.9,
-          707.8,
-          1099.7
-        ],
-        "op_incomes": [
-          -66.1,
-          130.9,
-          100.6
-        ],
-        "op_margins": [
-          -15.45,
-          18.49,
-          9.15
-        ]
-      }
-    },
-    {
       "code": "096530",
       "name": "씨젠",
       "market": "KOSDAQ",
-      "price": 30500,
-      "change_rate": -2.4,
-      "marcap": 15929.0,
-      "per": 24.26,
-      "pbr": -1.45,
+      "price": 32150,
+      "change_rate": 5.41,
+      "marcap": 16791.0,
+      "per": 25.58,
+      "pbr": -1.52,
       "recent_revenue": 2991.2,
       "recent_op_income": -178.2,
       "recent_op_margin": -5.96,
@@ -5049,10 +4995,10 @@
       "code": "0009K0",
       "name": "에임드바이오",
       "market": "KOSDAQ",
-      "price": 24500,
-      "change_rate": -7.37,
-      "marcap": 15844.0,
-      "per": 39.2,
+      "price": 25950,
+      "change_rate": 5.92,
+      "marcap": 16782.0,
+      "per": 41.52,
       "pbr": null,
       "recent_revenue": null,
       "recent_op_income": null,
@@ -5065,17 +5011,17 @@
       }
     },
     {
-      "code": "007390",
-      "name": "네이처셀",
+      "code": "041510",
+      "name": "에스엠",
       "market": "KOSDAQ",
-      "price": 23750,
-      "change_rate": 1.5,
-      "marcap": 15303.0,
-      "per": -552.33,
-      "pbr": -18.78,
-      "recent_revenue": 321.0,
-      "recent_op_income": 10.9,
-      "recent_op_margin": 3.4,
+      "price": 71900,
+      "change_rate": 0.84,
+      "marcap": 16461.0,
+      "per": 12.52,
+      "pbr": 2.12,
+      "recent_revenue": 6627.5,
+      "recent_op_income": 1123.3,
+      "recent_op_margin": 16.95,
       "history": {
         "years": [
           "2022년",
@@ -5083,19 +5029,81 @@
           "2024년"
         ],
         "revenues": [
-          215.5,
-          193.6,
-          321.0
+          5137.8,
+          6194.9,
+          6627.5
         ],
         "op_incomes": [
-          -95.0,
-          -88.5,
-          10.9
+          995.7,
+          1149.6,
+          1123.3
         ],
         "op_margins": [
-          -44.08,
-          -45.71,
-          3.4
+          19.38,
+          18.56,
+          16.95
+        ]
+      }
+    },
+    {
+      "code": "060370",
+      "name": "LS마린솔루션",
+      "market": "KOSDAQ",
+      "price": 30600,
+      "change_rate": -1.13,
+      "marcap": 15985.0,
+      "per": 118.6,
+      "pbr": 10.85,
+      "recent_revenue": 1099.7,
+      "recent_op_income": 100.6,
+      "recent_op_margin": 9.15,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          427.9,
+          707.8,
+          1099.7
+        ],
+        "op_incomes": [
+          -66.1,
+          130.9,
+          100.6
+        ],
+        "op_margins": [
+          -15.45,
+          18.49,
+          9.15
+        ]
+      }
+    },
+    {
+      "code": "475830",
+      "name": "오름테라퓨틱",
+      "market": "KOSDAQ",
+      "price": 72500,
+      "change_rate": 16.94,
+      "marcap": 15747.0,
+      "per": -32.02,
+      "pbr": 14.64,
+      "recent_revenue": 209.1,
+      "recent_op_income": -95.6,
+      "recent_op_margin": -45.72,
+      "history": {
+        "years": [
+          "2024년"
+        ],
+        "revenues": [
+          209.1
+        ],
+        "op_incomes": [
+          -95.6
+        ],
+        "op_margins": [
+          -45.72
         ]
       }
     },
@@ -5103,11 +5111,11 @@
       "code": "089970",
       "name": "브이엠",
       "market": "KOSDAQ",
-      "price": 58100,
-      "change_rate": -7.34,
-      "marcap": 15296.0,
-      "per": 22.84,
-      "pbr": -2.03,
+      "price": 58500,
+      "change_rate": 0.69,
+      "marcap": 15401.0,
+      "per": 23.0,
+      "pbr": -2.04,
       "recent_revenue": 702.8,
       "recent_op_income": -62.4,
       "recent_op_margin": -8.88,
@@ -5135,11 +5143,81 @@
       }
     },
     {
+      "code": "007390",
+      "name": "네이처셀",
+      "market": "KOSDAQ",
+      "price": 23600,
+      "change_rate": -0.63,
+      "marcap": 15207.0,
+      "per": -548.84,
+      "pbr": -18.66,
+      "recent_revenue": 321.0,
+      "recent_op_income": 10.9,
+      "recent_op_margin": 3.4,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          215.5,
+          193.6,
+          321.0
+        ],
+        "op_incomes": [
+          -95.0,
+          -88.5,
+          10.9
+        ],
+        "op_margins": [
+          -44.08,
+          -45.71,
+          3.4
+        ]
+      }
+    },
+    {
+      "code": "241710",
+      "name": "코스메카코리아",
+      "market": "KOSDAQ",
+      "price": 140000,
+      "change_rate": 1.97,
+      "marcap": 14952.0,
+      "per": 27.14,
+      "pbr": 3.67,
+      "recent_revenue": 3286.6,
+      "recent_op_income": 444.7,
+      "recent_op_margin": 13.53,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2274.0,
+          2686.4,
+          3286.6
+        ],
+        "op_incomes": [
+          76.9,
+          229.1,
+          444.7
+        ],
+        "op_margins": [
+          3.38,
+          8.53,
+          13.53
+        ]
+      }
+    },
+    {
       "code": "030530",
       "name": "원익홀딩스",
       "market": "KOSDAQ",
       "price": 19250,
-      "change_rate": -4.23,
+      "change_rate": 0.0,
       "marcap": 14868.0,
       "per": 77.0,
       "pbr": 5.68,
@@ -5170,154 +5248,14 @@
       }
     },
     {
-      "code": "131970",
-      "name": "두산테스나",
-      "market": "KOSDAQ",
-      "price": 76900,
-      "change_rate": -6.33,
-      "marcap": 14863.0,
-      "per": 56.42,
-      "pbr": 6.93,
-      "recent_revenue": 3637.3,
-      "recent_op_income": 447.0,
-      "recent_op_margin": 12.29,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2776.6,
-          3386.5,
-          3637.3
-        ],
-        "op_incomes": [
-          671.7,
-          607.8,
-          447.0
-        ],
-        "op_margins": [
-          24.19,
-          17.95,
-          12.29
-        ]
-      }
-    },
-    {
-      "code": "323280",
-      "name": "태성",
-      "market": "KOSDAQ",
-      "price": 48450,
-      "change_rate": -8.76,
-      "marcap": 14796.0,
-      "per": 590.85,
-      "pbr": 58.38,
-      "recent_revenue": 524.2,
-      "recent_op_income": 51.8,
-      "recent_op_margin": 9.88,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          609.4,
-          311.1,
-          524.2
-        ],
-        "op_incomes": [
-          22.3,
-          -7.4,
-          51.8
-        ],
-        "op_margins": [
-          3.66,
-          -2.38,
-          9.88
-        ]
-      }
-    },
-    {
-      "code": "241710",
-      "name": "코스메카코리아",
-      "market": "KOSDAQ",
-      "price": 137300,
-      "change_rate": 0.07,
-      "marcap": 14664.0,
-      "per": 26.61,
-      "pbr": 3.6,
-      "recent_revenue": 3286.6,
-      "recent_op_income": 444.7,
-      "recent_op_margin": 13.53,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2274.0,
-          2686.4,
-          3286.6
-        ],
-        "op_incomes": [
-          76.9,
-          229.1,
-          444.7
-        ],
-        "op_margins": [
-          3.38,
-          8.53,
-          13.53
-        ]
-      }
-    },
-    {
-      "code": "183300",
-      "name": "코미코",
-      "market": "KOSDAQ",
-      "price": 27700,
-      "change_rate": 27.06,
-      "marcap": 14228.0,
-      "per": 11.76,
-      "pbr": 1.95,
-      "recent_revenue": 1597.3,
-      "recent_op_income": 264.6,
-      "recent_op_margin": 16.57,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1468.3,
-          1268.2,
-          1597.3
-        ],
-        "op_incomes": [
-          212.7,
-          113.3,
-          264.6
-        ],
-        "op_margins": [
-          14.49,
-          8.93,
-          16.57
-        ]
-      }
-    },
-    {
       "code": "039200",
       "name": "오스코텍",
       "market": "KOSDAQ",
-      "price": 36700,
-      "change_rate": -5.53,
-      "marcap": 14041.0,
-      "per": 25.28,
-      "pbr": 2.64,
+      "price": 38250,
+      "change_rate": 4.22,
+      "marcap": 14634.0,
+      "per": 26.34,
+      "pbr": 2.76,
       "recent_revenue": 188.3,
       "recent_op_income": 19.7,
       "recent_op_margin": 10.46,
@@ -5345,14 +5283,84 @@
       }
     },
     {
+      "code": "323280",
+      "name": "태성",
+      "market": "KOSDAQ",
+      "price": 47700,
+      "change_rate": -1.55,
+      "marcap": 14567.0,
+      "per": 581.71,
+      "pbr": 57.47,
+      "recent_revenue": 524.2,
+      "recent_op_income": 51.8,
+      "recent_op_margin": 9.88,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          609.4,
+          311.1,
+          524.2
+        ],
+        "op_incomes": [
+          22.3,
+          -7.4,
+          51.8
+        ],
+        "op_margins": [
+          3.66,
+          -2.38,
+          9.88
+        ]
+      }
+    },
+    {
+      "code": "131970",
+      "name": "두산테스나",
+      "market": "KOSDAQ",
+      "price": 75100,
+      "change_rate": -2.34,
+      "marcap": 14515.0,
+      "per": 55.1,
+      "pbr": 6.77,
+      "recent_revenue": 3637.3,
+      "recent_op_income": 447.0,
+      "recent_op_margin": 12.29,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2776.6,
+          3386.5,
+          3637.3
+        ],
+        "op_incomes": [
+          671.7,
+          607.8,
+          447.0
+        ],
+        "op_margins": [
+          24.19,
+          17.95,
+          12.29
+        ]
+      }
+    },
+    {
       "code": "035900",
       "name": "JYP Ent.",
       "market": "KOSDAQ",
-      "price": 38800,
-      "change_rate": -3.24,
-      "marcap": 13787.0,
-      "per": 11.18,
-      "pbr": 2.59,
+      "price": 39450,
+      "change_rate": 1.68,
+      "marcap": 14018.0,
+      "per": 11.37,
+      "pbr": 2.64,
       "recent_revenue": 4882.6,
       "recent_op_income": 1133.2,
       "recent_op_margin": 23.21,
@@ -5383,11 +5391,11 @@
       "code": "082920",
       "name": "비츠로셀",
       "market": "KOSDAQ",
-      "price": 30500,
-      "change_rate": -10.95,
-      "marcap": 13768.0,
-      "per": 19.39,
-      "pbr": 4.74,
+      "price": 30600,
+      "change_rate": 0.33,
+      "marcap": 13813.0,
+      "per": 19.45,
+      "pbr": 4.76,
       "recent_revenue": 2107.8,
       "recent_op_income": 515.4,
       "recent_op_margin": 24.45,
@@ -5415,14 +5423,49 @@
       }
     },
     {
+      "code": "078600",
+      "name": "대주전자재료",
+      "market": "KOSDAQ",
+      "price": 87600,
+      "change_rate": 5.67,
+      "marcap": 13757.0,
+      "per": 65.62,
+      "pbr": 10.95,
+      "recent_revenue": 1694.2,
+      "recent_op_income": 282.7,
+      "recent_op_margin": 16.69,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1307.5,
+          1334.7,
+          1694.2
+        ],
+        "op_incomes": [
+          134.9,
+          61.2,
+          282.7
+        ],
+        "op_margins": [
+          10.32,
+          4.59,
+          16.69
+        ]
+      }
+    },
+    {
       "code": "290650",
       "name": "엘앤씨바이오",
       "market": "KOSDAQ",
-      "price": 51000,
-      "change_rate": -4.32,
-      "marcap": 13755.0,
-      "per": -9.22,
-      "pbr": -0.28,
+      "price": 50600,
+      "change_rate": -0.78,
+      "marcap": 13647.0,
+      "per": -9.15,
+      "pbr": -0.27,
       "recent_revenue": 561.7,
       "recent_op_income": 16.8,
       "recent_op_margin": 2.99,
@@ -5450,41 +5493,14 @@
       }
     },
     {
-      "code": "475830",
-      "name": "오름테라퓨틱",
-      "market": "KOSDAQ",
-      "price": 62000,
-      "change_rate": -13.53,
-      "marcap": 13466.0,
-      "per": -27.39,
-      "pbr": 12.52,
-      "recent_revenue": 209.1,
-      "recent_op_income": -95.6,
-      "recent_op_margin": -45.72,
-      "history": {
-        "years": [
-          "2024년"
-        ],
-        "revenues": [
-          209.1
-        ],
-        "op_incomes": [
-          -95.6
-        ],
-        "op_margins": [
-          -45.72
-        ]
-      }
-    },
-    {
       "code": "420770",
       "name": "기가비스",
       "market": "KOSDAQ",
-      "price": 105300,
-      "change_rate": -13.4,
-      "marcap": 13348.0,
-      "per": 81.5,
-      "pbr": -5.58,
+      "price": 104600,
+      "change_rate": -0.66,
+      "marcap": 13259.0,
+      "per": 80.96,
+      "pbr": -5.55,
       "recent_revenue": 261.3,
       "recent_op_income": -17.9,
       "recent_op_margin": -6.85,
@@ -5511,10 +5527,10 @@
       "code": "043260",
       "name": "성호전자",
       "market": "KOSDAQ",
-      "price": 18120,
-      "change_rate": -6.6,
-      "marcap": 13306.0,
-      "per": 3.1,
+      "price": 17940,
+      "change_rate": -0.99,
+      "marcap": 13174.0,
+      "per": 3.07,
       "pbr": 0.07,
       "recent_revenue": 1131.1,
       "recent_op_income": 26.1,
@@ -5543,17 +5559,17 @@
       }
     },
     {
-      "code": "078600",
-      "name": "대주전자재료",
+      "code": "183300",
+      "name": "코미코",
       "market": "KOSDAQ",
-      "price": 82900,
-      "change_rate": -5.04,
-      "marcap": 13019.0,
-      "per": 127.15,
-      "pbr": 21.22,
-      "recent_revenue": 1694.2,
-      "recent_op_income": 282.7,
-      "recent_op_margin": 16.69,
+      "price": 25400,
+      "change_rate": -8.3,
+      "marcap": 13046.0,
+      "per": 26.96,
+      "pbr": 4.47,
+      "recent_revenue": 1597.3,
+      "recent_op_income": 264.6,
+      "recent_op_margin": 16.57,
       "history": {
         "years": [
           "2022년",
@@ -5561,54 +5577,19 @@
           "2024년"
         ],
         "revenues": [
-          1307.5,
-          1334.7,
-          1694.2
+          1468.3,
+          1268.2,
+          1597.3
         ],
         "op_incomes": [
-          134.9,
-          61.2,
-          282.7
+          212.7,
+          113.3,
+          264.6
         ],
         "op_margins": [
-          10.32,
-          4.59,
-          16.69
-        ]
-      }
-    },
-    {
-      "code": "218410",
-      "name": "RFHIC",
-      "market": "KOSDAQ",
-      "price": 47150,
-      "change_rate": -5.89,
-      "marcap": 12530.0,
-      "per": 37.69,
-      "pbr": 0.71,
-      "recent_revenue": 714.7,
-      "recent_op_income": 13.5,
-      "recent_op_margin": 1.89,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          647.7,
-          693.1,
-          714.7
-        ],
-        "op_incomes": [
-          -20.5,
-          9.8,
-          13.5
-        ],
-        "op_margins": [
-          -3.17,
-          1.41,
-          1.89
+          14.49,
+          8.93,
+          16.57
         ]
       }
     },
@@ -5616,11 +5597,11 @@
       "code": "127120",
       "name": "제이에스링크",
       "market": "KOSDAQ",
-      "price": 34000,
-      "change_rate": -8.72,
-      "marcap": 12456.0,
-      "per": -64.76,
-      "pbr": 45.62,
+      "price": 34300,
+      "change_rate": 0.88,
+      "marcap": 12566.0,
+      "per": -65.33,
+      "pbr": 46.02,
       "recent_revenue": 131.6,
       "recent_op_income": -92.7,
       "recent_op_margin": -70.44,
@@ -5648,84 +5629,14 @@
       }
     },
     {
-      "code": "347700",
-      "name": "스피어",
-      "market": "KOSDAQ",
-      "price": 23450,
-      "change_rate": -8.93,
-      "marcap": 12089.0,
-      "per": 26.68,
-      "pbr": -99.77,
-      "recent_revenue": 16.9,
-      "recent_op_income": -63.2,
-      "recent_op_margin": -373.96,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          28.2,
-          16.0,
-          16.9
-        ],
-        "op_incomes": [
-          -56.1,
-          -87.9,
-          -63.2
-        ],
-        "op_margins": [
-          -198.94,
-          -549.38,
-          -373.96
-        ]
-      }
-    },
-    {
-      "code": "003380",
-      "name": "하림지주",
-      "market": "KOSDAQ",
-      "price": 10580,
-      "change_rate": -1.21,
-      "marcap": 11850.0,
-      "per": 7.08,
-      "pbr": 5.33,
-      "recent_revenue": 904.7,
-      "recent_op_income": 680.8,
-      "recent_op_margin": 75.25,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          137753.0,
-          1083.9,
-          904.7
-        ],
-        "op_incomes": [
-          466.0,
-          825.7,
-          680.8
-        ],
-        "op_margins": [
-          0.34,
-          76.18,
-          75.25
-        ]
-      }
-    },
-    {
       "code": "195940",
       "name": "HK이노엔",
       "market": "KOSDAQ",
-      "price": 41000,
-      "change_rate": -3.53,
-      "marcap": 11615.0,
-      "per": 13.79,
-      "pbr": 1.36,
+      "price": 44150,
+      "change_rate": 7.68,
+      "marcap": 12508.0,
+      "per": 14.85,
+      "pbr": 1.46,
       "recent_revenue": 8971.4,
       "recent_op_income": 882.2,
       "recent_op_margin": 9.83,
@@ -5753,14 +5664,119 @@
       }
     },
     {
+      "code": "218410",
+      "name": "RFHIC",
+      "market": "KOSDAQ",
+      "price": 46200,
+      "change_rate": -2.01,
+      "marcap": 12278.0,
+      "per": 36.93,
+      "pbr": 0.7,
+      "recent_revenue": 714.7,
+      "recent_op_income": 13.5,
+      "recent_op_margin": 1.89,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          647.7,
+          693.1,
+          714.7
+        ],
+        "op_incomes": [
+          -20.5,
+          9.8,
+          13.5
+        ],
+        "op_margins": [
+          -3.17,
+          1.41,
+          1.89
+        ]
+      }
+    },
+    {
+      "code": "003380",
+      "name": "하림지주",
+      "market": "KOSDAQ",
+      "price": 10940,
+      "change_rate": 3.4,
+      "marcap": 12253.0,
+      "per": 7.32,
+      "pbr": 5.51,
+      "recent_revenue": 904.7,
+      "recent_op_income": 680.8,
+      "recent_op_margin": 75.25,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          137753.0,
+          1083.9,
+          904.7
+        ],
+        "op_incomes": [
+          466.0,
+          825.7,
+          680.8
+        ],
+        "op_margins": [
+          0.34,
+          76.18,
+          75.25
+        ]
+      }
+    },
+    {
+      "code": "347700",
+      "name": "스피어",
+      "market": "KOSDAQ",
+      "price": 23050,
+      "change_rate": -1.71,
+      "marcap": 11883.0,
+      "per": 26.22,
+      "pbr": -98.05,
+      "recent_revenue": 16.9,
+      "recent_op_income": -63.2,
+      "recent_op_margin": -373.96,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          28.2,
+          16.0,
+          16.9
+        ],
+        "op_incomes": [
+          -56.1,
+          -87.9,
+          -63.2
+        ],
+        "op_margins": [
+          -198.94,
+          -549.38,
+          -373.96
+        ]
+      }
+    },
+    {
       "code": "204270",
       "name": "제이앤티씨",
       "market": "KOSDAQ",
-      "price": 19000,
-      "change_rate": -0.68,
-      "marcap": 10991.0,
-      "per": -13.41,
-      "pbr": -3.15,
+      "price": 18570,
+      "change_rate": -2.26,
+      "marcap": 10742.0,
+      "per": -13.11,
+      "pbr": -3.08,
       "recent_revenue": 1018.8,
       "recent_op_income": 239.0,
       "recent_op_margin": 23.46,
@@ -5788,14 +5804,45 @@
       }
     },
     {
+      "code": "437730",
+      "name": "삼현",
+      "market": "KOSDAQ",
+      "price": 32150,
+      "change_rate": -3.02,
+      "marcap": 10194.0,
+      "per": 189.12,
+      "pbr": 10.7,
+      "recent_revenue": 1001.1,
+      "recent_op_income": 56.7,
+      "recent_op_margin": 5.66,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          998.5,
+          1001.1
+        ],
+        "op_incomes": [
+          98.0,
+          56.7
+        ],
+        "op_margins": [
+          9.81,
+          5.66
+        ]
+      }
+    },
+    {
       "code": "166090",
       "name": "하나머티리얼즈",
       "market": "KOSDAQ",
-      "price": 53400,
-      "change_rate": -4.3,
-      "marcap": 10561.0,
-      "per": 16.45,
-      "pbr": 2.84,
+      "price": 50900,
+      "change_rate": -4.68,
+      "marcap": 10067.0,
+      "per": 15.68,
+      "pbr": 2.71,
       "recent_revenue": 2503.7,
       "recent_op_income": 432.6,
       "recent_op_margin": 17.28,
@@ -5823,45 +5870,14 @@
       }
     },
     {
-      "code": "437730",
-      "name": "삼현",
-      "market": "KOSDAQ",
-      "price": 33150,
-      "change_rate": -8.68,
-      "marcap": 10511.0,
-      "per": 195.0,
-      "pbr": 11.04,
-      "recent_revenue": 1001.1,
-      "recent_op_income": 56.7,
-      "recent_op_margin": 5.66,
-      "history": {
-        "years": [
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          998.5,
-          1001.1
-        ],
-        "op_incomes": [
-          98.0,
-          56.7
-        ],
-        "op_margins": [
-          9.81,
-          5.66
-        ]
-      }
-    },
-    {
       "code": "115180",
       "name": "큐리언트",
       "market": "KOSDAQ",
-      "price": 24800,
-      "change_rate": -4.8,
-      "marcap": 9303.0,
-      "per": -28.47,
-      "pbr": 64.98,
+      "price": 26350,
+      "change_rate": 6.25,
+      "marcap": 9885.0,
+      "per": -30.25,
+      "pbr": 69.05,
       "recent_revenue": 110.1,
       "recent_op_income": -251.3,
       "recent_op_margin": -228.25,
@@ -5889,49 +5905,14 @@
       }
     },
     {
-      "code": "036540",
-      "name": "SFA반도체",
-      "market": "KOSDAQ",
-      "price": 5560,
-      "change_rate": -8.25,
-      "marcap": 9144.0,
-      "per": -88.25,
-      "pbr": -1.49,
-      "recent_revenue": 3973.9,
-      "recent_op_income": 67.1,
-      "recent_op_margin": 1.69,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          6529.3,
-          4092.5,
-          3973.9
-        ],
-        "op_incomes": [
-          443.9,
-          -53.1,
-          67.1
-        ],
-        "op_margins": [
-          6.8,
-          -1.3,
-          1.69
-        ]
-      }
-    },
-    {
       "code": "293490",
       "name": "카카오게임즈",
       "market": "KOSDAQ",
-      "price": 8510,
-      "change_rate": -5.13,
-      "marcap": 9084.0,
-      "per": -5.79,
-      "pbr": -0.5,
+      "price": 8660,
+      "change_rate": 1.76,
+      "marcap": 9244.0,
+      "per": -5.9,
+      "pbr": -0.51,
       "recent_revenue": 5942.6,
       "recent_op_income": 510.7,
       "recent_op_margin": 8.59,
@@ -5959,495 +5940,45 @@
       }
     },
     {
-      "code": "101490",
-      "name": "에스앤에스텍",
+      "code": "445680",
+      "name": "큐리옥스바이오시스템즈",
       "market": "KOSDAQ",
-      "price": 40650,
-      "change_rate": -6.01,
-      "marcap": 8673.0,
-      "per": 13.82,
-      "pbr": 2.44,
-      "recent_revenue": 1666.1,
-      "recent_op_income": 294.6,
-      "recent_op_margin": 17.68,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1222.5,
-          1430.2,
-          1666.1
-        ],
-        "op_incomes": [
-          181.8,
-          218.9,
-          294.6
-        ],
-        "op_margins": [
-          14.87,
-          15.31,
-          17.68
-        ]
-      }
-    },
-    {
-      "code": "056190",
-      "name": "SFA",
-      "market": "KOSDAQ",
-      "price": 23700,
-      "change_rate": -5.01,
-      "marcap": 8510.0,
-      "per": 13.86,
-      "pbr": -1.49,
-      "recent_revenue": 9712.6,
-      "recent_op_income": -1042.7,
-      "recent_op_margin": -10.74,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          8508.5,
-          10179.4,
-          9712.6
-        ],
-        "op_incomes": [
-          960.8,
-          583.8,
-          -1042.7
-        ],
-        "op_margins": [
-          11.29,
-          5.74,
-          -10.74
-        ]
-      }
-    },
-    {
-      "code": "476830",
-      "name": "알지노믹스",
-      "market": "KOSDAQ",
-      "price": 30150,
-      "change_rate": -18.18,
-      "marcap": 8459.0,
-      "per": -27.74,
-      "pbr": null,
-      "recent_revenue": 0.0,
-      "recent_op_income": -128.6,
-      "recent_op_margin": null,
+      "price": 53700,
+      "change_rate": 24.16,
+      "marcap": 9238.0,
+      "per": -34.36,
+      "pbr": 113.87,
+      "recent_revenue": 27.7,
+      "recent_op_income": -91.8,
+      "recent_op_margin": -331.41,
       "history": {
         "years": [
           "2023년",
           "2024년"
         ],
         "revenues": [
-          1.4,
-          0.0
+          32.2,
+          27.7
         ],
         "op_incomes": [
-          -155.2,
-          -128.6
+          -73.1,
+          -91.8
         ],
         "op_margins": [
-          -11085.71,
-          null
+          -227.02,
+          -331.41
         ]
-      }
-    },
-    {
-      "code": "491000",
-      "name": "리브스메드",
-      "market": "KOSDAQ",
-      "price": 33450,
-      "change_rate": -9.84,
-      "marcap": 8448.0,
-      "per": -34.31,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
-      }
-    },
-    {
-      "code": "232140",
-      "name": "와이씨",
-      "market": "KOSDAQ",
-      "price": 9970,
-      "change_rate": -6.3,
-      "marcap": 8180.0,
-      "per": 36.93,
-      "pbr": 1.19,
-      "recent_revenue": 1528.9,
-      "recent_op_income": 49.2,
-      "recent_op_margin": 3.22,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2351.3,
-          2203.4,
-          1528.9
-        ],
-        "op_incomes": [
-          216.7,
-          113.4,
-          49.2
-        ],
-        "op_margins": [
-          9.22,
-          5.15,
-          3.22
-        ]
-      }
-    },
-    {
-      "code": "041830",
-      "name": "인바디",
-      "market": "KOSDAQ",
-      "price": 59800,
-      "change_rate": -3.55,
-      "marcap": 8062.0,
-      "per": 20.17,
-      "pbr": 6.45,
-      "recent_revenue": 1323.8,
-      "recent_op_income": 423.1,
-      "recent_op_margin": 31.96,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1096.5,
-          1029.5,
-          1323.8
-        ],
-        "op_incomes": [
-          421.1,
-          330.4,
-          423.1
-        ],
-        "op_margins": [
-          38.4,
-          32.09,
-          31.96
-        ]
-      }
-    },
-    {
-      "code": "086450",
-      "name": "동국제약",
-      "market": "KOSDAQ",
-      "price": 17770,
-      "change_rate": -3.95,
-      "marcap": 8037.0,
-      "per": 10.78,
-      "pbr": 1.09,
-      "recent_revenue": 6829.1,
-      "recent_op_income": 693.3,
-      "recent_op_margin": 10.15,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          5680.8,
-          6199.3,
-          6829.1
-        ],
-        "op_incomes": [
-          665.5,
-          578.2,
-          693.3
-        ],
-        "op_margins": [
-          11.71,
-          9.33,
-          10.15
-        ]
-      }
-    },
-    {
-      "code": "458870",
-      "name": "씨어스",
-      "market": "KOSDAQ",
-      "price": 20900,
-      "change_rate": -9.33,
-      "marcap": 7954.0,
-      "per": 18.97,
-      "pbr": -20.33,
-      "recent_revenue": 81.0,
-      "recent_op_income": -86.8,
-      "recent_op_margin": -107.16,
-      "history": {
-        "years": [
-          "2024년"
-        ],
-        "revenues": [
-          81.0
-        ],
-        "op_incomes": [
-          -86.8
-        ],
-        "op_margins": [
-          -107.16
-        ]
-      }
-    },
-    {
-      "code": "388720",
-      "name": "유일로보틱스",
-      "market": "KOSDAQ",
-      "price": 67500,
-      "change_rate": -3.98,
-      "marcap": 7952.0,
-      "per": -24.13,
-      "pbr": -0.28,
-      "recent_revenue": 351.7,
-      "recent_op_income": 4.0,
-      "recent_op_margin": 1.14,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          367.2,
-          294.5,
-          351.7
-        ],
-        "op_incomes": [
-          -29.7,
-          -70.1,
-          4.0
-        ],
-        "op_margins": [
-          -8.09,
-          -23.8,
-          1.14
-        ]
-      }
-    },
-    {
-      "code": "119850",
-      "name": "지엔씨에너지",
-      "market": "KOSDAQ",
-      "price": 48250,
-      "change_rate": -3.69,
-      "marcap": 7937.0,
-      "per": 18.17,
-      "pbr": 2.09,
-      "recent_revenue": 1827.4,
-      "recent_op_income": 209.7,
-      "recent_op_margin": 11.48,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1312.6,
-          1450.5,
-          1827.4
-        ],
-        "op_incomes": [
-          60.9,
-          104.2,
-          209.7
-        ],
-        "op_margins": [
-          4.64,
-          7.18,
-          11.48
-        ]
-      }
-    },
-    {
-      "code": "090710",
-      "name": "휴림로봇",
-      "market": "KOSDAQ",
-      "price": 6630,
-      "change_rate": -3.77,
-      "marcap": 7927.0,
-      "per": -47.36,
-      "pbr": 23.66,
-      "recent_revenue": 141.9,
-      "recent_op_income": -70.9,
-      "recent_op_margin": -49.96,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          267.4,
-          190.3,
-          141.9
-        ],
-        "op_incomes": [
-          -57.6,
-          -49.2,
-          -70.9
-        ],
-        "op_margins": [
-          -21.54,
-          -25.85,
-          -49.96
-        ]
-      }
-    },
-    {
-      "code": "083450",
-      "name": "GST",
-      "market": "KOSDAQ",
-      "price": 43000,
-      "change_rate": -6.22,
-      "marcap": 7925.0,
-      "per": 14.42,
-      "pbr": 2.3,
-      "recent_revenue": 3236.2,
-      "recent_op_income": 515.3,
-      "recent_op_margin": 15.92,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          2972.4,
-          2606.1,
-          3236.2
-        ],
-        "op_incomes": [
-          519.6,
-          420.6,
-          515.3
-        ],
-        "op_margins": [
-          17.48,
-          16.14,
-          15.92
-        ]
-      }
-    },
-    {
-      "code": "213420",
-      "name": "덕산네오룩스",
-      "market": "KOSDAQ",
-      "price": 31850,
-      "change_rate": -3.92,
-      "marcap": 7909.0,
-      "per": 11.09,
-      "pbr": 2.74,
-      "recent_revenue": 2122.5,
-      "recent_op_income": 524.0,
-      "recent_op_margin": 24.69,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          1766.8,
-          1637.0,
-          2122.5
-        ],
-        "op_incomes": [
-          449.3,
-          328.4,
-          524.0
-        ],
-        "op_margins": [
-          25.43,
-          20.06,
-          24.69
-        ]
-      }
-    },
-    {
-      "code": "031330",
-      "name": "에스에이엠티",
-      "market": "KOSDAQ",
-      "price": 7850,
-      "change_rate": -3.56,
-      "marcap": 7850.0,
-      "per": 2.57,
-      "pbr": 0.06,
-      "recent_revenue": 17047.8,
-      "recent_op_income": 423.6,
-      "recent_op_margin": 2.48,
-      "history": {
-        "years": [
-          "2022년",
-          "2023년",
-          "2024년"
-        ],
-        "revenues": [
-          19108.0,
-          14574.0,
-          17047.8
-        ],
-        "op_incomes": [
-          638.9,
-          428.9,
-          423.6
-        ],
-        "op_margins": [
-          3.34,
-          2.94,
-          2.48
-        ]
-      }
-    },
-    {
-      "code": "950260",
-      "name": "인제니아테라퓨틱스(Reg.S)",
-      "market": "KOSDAQ",
-      "price": 15770,
-      "change_rate": -13.97,
-      "marcap": 7797.0,
-      "per": -25.35,
-      "pbr": null,
-      "recent_revenue": null,
-      "recent_op_income": null,
-      "recent_op_margin": null,
-      "history": {
-        "years": [],
-        "revenues": [],
-        "op_incomes": [],
-        "op_margins": []
       }
     },
     {
       "code": "036830",
       "name": "솔브레인홀딩스",
       "market": "KOSDAQ",
-      "price": 37950,
-      "change_rate": -2.69,
-      "marcap": 7781.0,
-      "per": 1.59,
-      "pbr": 1.0,
+      "price": 44600,
+      "change_rate": 17.52,
+      "marcap": 9145.0,
+      "per": 1.87,
+      "pbr": 1.18,
       "recent_revenue": 486.2,
       "recent_op_income": 306.7,
       "recent_op_margin": 63.08,
@@ -6475,17 +6006,17 @@
       }
     },
     {
-      "code": "038500",
-      "name": "삼표시멘트",
+      "code": "036540",
+      "name": "SFA반도체",
       "market": "KOSDAQ",
-      "price": 7190,
-      "change_rate": -4.52,
-      "marcap": 7759.0,
-      "per": 15.77,
-      "pbr": 2.02,
-      "recent_revenue": 7439.7,
-      "recent_op_income": 953.7,
-      "recent_op_margin": 12.82,
+      "price": 5390,
+      "change_rate": -3.06,
+      "marcap": 8864.0,
+      "per": -85.56,
+      "pbr": -1.45,
+      "recent_revenue": 3973.9,
+      "recent_op_income": 67.1,
+      "recent_op_margin": 1.69,
       "history": {
         "years": [
           "2022년",
@@ -6493,19 +6024,415 @@
           "2024년"
         ],
         "revenues": [
-          6732.9,
-          7759.3,
-          7439.7
+          6529.3,
+          4092.5,
+          3973.9
         ],
         "op_incomes": [
-          483.0,
-          649.8,
-          953.7
+          443.9,
+          -53.1,
+          67.1
         ],
         "op_margins": [
-          7.17,
-          8.37,
-          12.82
+          6.8,
+          -1.3,
+          1.69
+        ]
+      }
+    },
+    {
+      "code": "491000",
+      "name": "리브스메드",
+      "market": "KOSDAQ",
+      "price": 35050,
+      "change_rate": 4.78,
+      "marcap": 8852.0,
+      "per": -35.95,
+      "pbr": null,
+      "recent_revenue": null,
+      "recent_op_income": null,
+      "recent_op_margin": null,
+      "history": {
+        "years": [],
+        "revenues": [],
+        "op_incomes": [],
+        "op_margins": []
+      }
+    },
+    {
+      "code": "124500",
+      "name": "아이티센글로벌",
+      "market": "KOSDAQ",
+      "price": 37900,
+      "change_rate": 16.44,
+      "marcap": 8795.0,
+      "per": 12.42,
+      "pbr": 0.95,
+      "recent_revenue": 414.5,
+      "recent_op_income": 31.7,
+      "recent_op_margin": 7.65,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          452.4,
+          559.7,
+          414.5
+        ],
+        "op_incomes": [
+          23.6,
+          21.9,
+          31.7
+        ],
+        "op_margins": [
+          5.22,
+          3.91,
+          7.65
+        ]
+      }
+    },
+    {
+      "code": "476830",
+      "name": "알지노믹스",
+      "market": "KOSDAQ",
+      "price": 31300,
+      "change_rate": 3.81,
+      "marcap": 8781.0,
+      "per": -28.79,
+      "pbr": null,
+      "recent_revenue": 0.0,
+      "recent_op_income": -128.6,
+      "recent_op_margin": null,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1.4,
+          0.0
+        ],
+        "op_incomes": [
+          -155.2,
+          -128.6
+        ],
+        "op_margins": [
+          -11085.71,
+          null
+        ]
+      }
+    },
+    {
+      "code": "101490",
+      "name": "에스앤에스텍",
+      "market": "KOSDAQ",
+      "price": 40900,
+      "change_rate": 0.62,
+      "marcap": 8726.0,
+      "per": 13.91,
+      "pbr": 2.46,
+      "recent_revenue": 1666.1,
+      "recent_op_income": 294.6,
+      "recent_op_margin": 17.68,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1222.5,
+          1430.2,
+          1666.1
+        ],
+        "op_incomes": [
+          181.8,
+          218.9,
+          294.6
+        ],
+        "op_margins": [
+          14.87,
+          15.31,
+          17.68
+        ]
+      }
+    },
+    {
+      "code": "086450",
+      "name": "동국제약",
+      "market": "KOSDAQ",
+      "price": 19210,
+      "change_rate": 8.1,
+      "marcap": 8689.0,
+      "per": 13.16,
+      "pbr": 1.34,
+      "recent_revenue": 6829.1,
+      "recent_op_income": 693.3,
+      "recent_op_margin": 10.15,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          5680.8,
+          6199.3,
+          6829.1
+        ],
+        "op_incomes": [
+          665.5,
+          578.2,
+          693.3
+        ],
+        "op_margins": [
+          11.71,
+          9.33,
+          10.15
+        ]
+      }
+    },
+    {
+      "code": "041830",
+      "name": "인바디",
+      "market": "KOSDAQ",
+      "price": 62900,
+      "change_rate": 5.18,
+      "marcap": 8479.0,
+      "per": 21.21,
+      "pbr": 6.78,
+      "recent_revenue": 1323.8,
+      "recent_op_income": 423.1,
+      "recent_op_margin": 31.96,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1096.5,
+          1029.5,
+          1323.8
+        ],
+        "op_incomes": [
+          421.1,
+          330.4,
+          423.1
+        ],
+        "op_margins": [
+          38.4,
+          32.09,
+          31.96
+        ]
+      }
+    },
+    {
+      "code": "056190",
+      "name": "SFA",
+      "market": "KOSDAQ",
+      "price": 23500,
+      "change_rate": -0.84,
+      "marcap": 8439.0,
+      "per": 13.74,
+      "pbr": -1.48,
+      "recent_revenue": 9712.6,
+      "recent_op_income": -1042.7,
+      "recent_op_margin": -10.74,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          8508.5,
+          10179.4,
+          9712.6
+        ],
+        "op_incomes": [
+          960.8,
+          583.8,
+          -1042.7
+        ],
+        "op_margins": [
+          11.29,
+          5.74,
+          -10.74
+        ]
+      }
+    },
+    {
+      "code": "100790",
+      "name": "미래에셋벤처투자",
+      "market": "KOSDAQ",
+      "price": 15880,
+      "change_rate": 9.52,
+      "marcap": 8436.0,
+      "per": 15.61,
+      "pbr": 4.89,
+      "recent_revenue": 684.5,
+      "recent_op_income": 214.5,
+      "recent_op_margin": 31.34,
+      "history": {
+        "years": [
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          517.4,
+          684.5
+        ],
+        "op_incomes": [
+          271.9,
+          214.5
+        ],
+        "op_margins": [
+          52.55,
+          31.34
+        ]
+      }
+    },
+    {
+      "code": "083450",
+      "name": "GST",
+      "market": "KOSDAQ",
+      "price": 44650,
+      "change_rate": 3.84,
+      "marcap": 8229.0,
+      "per": 14.97,
+      "pbr": 2.38,
+      "recent_revenue": 3236.2,
+      "recent_op_income": 515.3,
+      "recent_op_margin": 15.92,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2972.4,
+          2606.1,
+          3236.2
+        ],
+        "op_incomes": [
+          519.6,
+          420.6,
+          515.3
+        ],
+        "op_margins": [
+          17.48,
+          16.14,
+          15.92
+        ]
+      }
+    },
+    {
+      "code": "065350",
+      "name": "신성델타테크",
+      "market": "KOSDAQ",
+      "price": 29350,
+      "change_rate": 5.2,
+      "marcap": 8067.0,
+      "per": 35.28,
+      "pbr": 0.93,
+      "recent_revenue": 1391.1,
+      "recent_op_income": 36.6,
+      "recent_op_margin": 2.63,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1447.7,
+          1546.9,
+          1391.1
+        ],
+        "op_incomes": [
+          147.0,
+          135.4,
+          36.6
+        ],
+        "op_margins": [
+          10.15,
+          8.75,
+          2.63
+        ]
+      }
+    },
+    {
+      "code": "232140",
+      "name": "와이씨",
+      "market": "KOSDAQ",
+      "price": 9830,
+      "change_rate": -1.4,
+      "marcap": 8065.0,
+      "per": 36.41,
+      "pbr": 1.17,
+      "recent_revenue": 1528.9,
+      "recent_op_income": 49.2,
+      "recent_op_margin": 3.22,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          2351.3,
+          2203.4,
+          1528.9
+        ],
+        "op_incomes": [
+          216.7,
+          113.4,
+          49.2
+        ],
+        "op_margins": [
+          9.22,
+          5.15,
+          3.22
+        ]
+      }
+    },
+    {
+      "code": "119850",
+      "name": "지엔씨에너지",
+      "market": "KOSDAQ",
+      "price": 49000,
+      "change_rate": 1.55,
+      "marcap": 8060.0,
+      "per": 18.45,
+      "pbr": 2.12,
+      "recent_revenue": 1827.4,
+      "recent_op_income": 209.7,
+      "recent_op_margin": 11.48,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1312.6,
+          1450.5,
+          1827.4
+        ],
+        "op_incomes": [
+          60.9,
+          104.2,
+          209.7
+        ],
+        "op_margins": [
+          4.64,
+          7.18,
+          11.48
         ]
       }
     },
@@ -6513,11 +6440,11 @@
       "code": "252990",
       "name": "샘씨엔에스",
       "market": "KOSDAQ",
-      "price": 12880,
-      "change_rate": -7.27,
-      "marcap": 7756.0,
-      "per": 34.81,
-      "pbr": 3.39,
+      "price": 13330,
+      "change_rate": 3.49,
+      "marcap": 8027.0,
+      "per": 36.03,
+      "pbr": 3.51,
       "recent_revenue": 533.2,
       "recent_op_income": 52.0,
       "recent_op_margin": 9.75,
@@ -6545,48 +6472,44 @@
       }
     },
     {
-      "code": "100790",
-      "name": "미래에셋벤처투자",
+      "code": "458870",
+      "name": "씨어스",
       "market": "KOSDAQ",
-      "price": 14500,
-      "change_rate": -7.82,
-      "marcap": 7702.0,
-      "per": 14.26,
-      "pbr": 4.47,
-      "recent_revenue": 684.5,
-      "recent_op_income": 214.5,
-      "recent_op_margin": 31.34,
+      "price": 21050,
+      "change_rate": 0.72,
+      "marcap": 8012.0,
+      "per": 19.1,
+      "pbr": -20.47,
+      "recent_revenue": 81.0,
+      "recent_op_income": -86.8,
+      "recent_op_margin": -107.16,
       "history": {
         "years": [
-          "2023년",
           "2024년"
         ],
         "revenues": [
-          517.4,
-          684.5
+          81.0
         ],
         "op_incomes": [
-          271.9,
-          214.5
+          -86.8
         ],
         "op_margins": [
-          52.55,
-          31.34
+          -107.16
         ]
       }
     },
     {
-      "code": "065350",
-      "name": "신성델타테크",
+      "code": "356860",
+      "name": "티엘비",
       "market": "KOSDAQ",
-      "price": 27900,
-      "change_rate": -7.0,
-      "marcap": 7668.0,
-      "per": 33.53,
-      "pbr": 0.88,
-      "recent_revenue": 1391.1,
-      "recent_op_income": 36.6,
-      "recent_op_margin": 2.63,
+      "price": 33750,
+      "change_rate": 8.52,
+      "marcap": 7999.0,
+      "per": 21.97,
+      "pbr": 0.85,
+      "recent_revenue": 1801.0,
+      "recent_op_income": 70.1,
+      "recent_op_margin": 3.89,
       "history": {
         "years": [
           "2022년",
@@ -6594,19 +6517,124 @@
           "2024년"
         ],
         "revenues": [
-          1447.7,
-          1546.9,
-          1391.1
+          2215.5,
+          1713.1,
+          1801.0
         ],
         "op_incomes": [
-          147.0,
-          135.4,
-          36.6
+          388.3,
+          38.9,
+          70.1
         ],
         "op_margins": [
-          10.15,
-          8.75,
-          2.63
+          17.53,
+          2.27,
+          3.89
+        ]
+      }
+    },
+    {
+      "code": "038500",
+      "name": "삼표시멘트",
+      "market": "KOSDAQ",
+      "price": 7320,
+      "change_rate": 1.81,
+      "marcap": 7899.0,
+      "per": 16.05,
+      "pbr": 2.06,
+      "recent_revenue": 7439.7,
+      "recent_op_income": 953.7,
+      "recent_op_margin": 12.82,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          6732.9,
+          7759.3,
+          7439.7
+        ],
+        "op_incomes": [
+          483.0,
+          649.8,
+          953.7
+        ],
+        "op_margins": [
+          7.17,
+          8.37,
+          12.82
+        ]
+      }
+    },
+    {
+      "code": "213420",
+      "name": "덕산네오룩스",
+      "market": "KOSDAQ",
+      "price": 31700,
+      "change_rate": -0.47,
+      "marcap": 7871.0,
+      "per": 11.04,
+      "pbr": 2.73,
+      "recent_revenue": 2122.5,
+      "recent_op_income": 524.0,
+      "recent_op_margin": 24.69,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1766.8,
+          1637.0,
+          2122.5
+        ],
+        "op_incomes": [
+          449.3,
+          328.4,
+          524.0
+        ],
+        "op_margins": [
+          25.43,
+          20.06,
+          24.69
+        ]
+      }
+    },
+    {
+      "code": "251970",
+      "name": "펌텍코리아",
+      "market": "KOSDAQ",
+      "price": 63400,
+      "change_rate": 6.02,
+      "marcap": 7862.0,
+      "per": 21.46,
+      "pbr": 2.99,
+      "recent_revenue": 2540.0,
+      "recent_op_income": 353.6,
+      "recent_op_margin": 13.92,
+      "history": {
+        "years": [
+          "2022년",
+          "2023년",
+          "2024년"
+        ],
+        "revenues": [
+          1736.4,
+          2128.0,
+          2540.0
+        ],
+        "op_incomes": [
+          261.6,
+          300.4,
+          353.6
+        ],
+        "op_margins": [
+          15.07,
+          14.12,
+          13.92
         ]
       }
     }
